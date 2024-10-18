@@ -5,3 +5,5 @@ Práctica 2 de base de datos, inserción masiva de datos, consultas en SQL y mod
 --------------------------------------------------------------------------------------------
 
 1- Realizar un modelo relacional
+
+prueba
