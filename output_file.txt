@@ -1,0 +1,21 @@
+CREATE TABLE
+            Table "public.temp_canciones"
+  Column  |  Type   | Collation | Nullable | Default 
+----------+---------+-----------+----------+---------
+ id       | integer |           |          | 
+ titulo   | text    |           |          | 
+ duracion | text    |           |          | 
+
+COPY 7537
+CREATE TABLE
+ROLLBACK
+ client_encoding 
+-----------------
+ UTF8
+(1 row)
+
+ client_encoding 
+-----------------
+ UTF8
+(1 row)
+
