@@ -72,7 +72,6 @@ create table grupo(
 insert into grupo (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
 \d grupo
 \echo 'Estas son;'
-select * from grupo;
 
 create table disco(
     titulo text,
@@ -83,5 +82,16 @@ create table disco(
 );
 \d disco
 insert into disco (titulo, año_publicacion, url_portada, nombre_grupo) select distinct nombre, fecha_lanzamiento::integer, url_portada, nombre_grupo from temp_discos;
-select * from disco;
+
+
+create table genero(
+    nombre text,
+    titulo_disco text,
+    año_pub_disco int,
+    nombre_grupo text,
+    primary key (titulo_disco,año_pub_disco,nombre_grupo,nombre)
+);
+-- He tenido que meter como PK el genero porque sino no me los diferencia y me saltan muchos repetidos.
+insert into genero (nombre, titulo_disco, año_pub_disco, nombre_grupo) select distinct regexp_split_to_table(genero, ',\s+'), nombre, fecha_lanzamiento::integer, nombre_grupo from temp_discos;
+select * from genero;
 rollback;
