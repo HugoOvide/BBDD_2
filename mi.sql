@@ -90,7 +90,7 @@ create table genero(
     primary key (titulo_disco,año_pub_disco,nombre)
 );
 -- He tenido que meter como PK el genero porque sino no me los diferencia y me saltan muchos repetidos.
-insert into genero (nombre, titulo_disco, año_pub_disco, nombre_grupo) select distinct regexp_split_to_table(genero, ',\s+'), nombre, fecha_lanzamiento::integer, nombre_grupo from temp_discos;
+insert into genero (nombre, titulo_disco, año_pub_disco) select distinct regexp_split_to_table(replace(replace(replace(genero,'[',''),'''',''),']',''),',\s'), nombre, fecha_lanzamiento::integer from temp_discos;
 select * from genero;
 
 
