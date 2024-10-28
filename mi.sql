@@ -82,16 +82,19 @@ create table disco(
 \d disco
 insert into disco (titulo, año_publicacion, url_portada, nombre_grupo) select distinct nombre, fecha_lanzamiento::integer, url_portada, nombre_grupo from temp_discos;
 
-
 create table genero(
     nombre text,
     titulo_disco text,
     año_pub_disco int,
     primary key (titulo_disco,año_pub_disco,nombre)
 );
--- He tenido que meter como PK el genero porque sino no me los diferencia y me saltan muchos repetidos.
 insert into genero (nombre, titulo_disco, año_pub_disco) select distinct regexp_split_to_table(replace(replace(replace(genero,'[',''),'''',''),']',''),',\s'), nombre, fecha_lanzamiento::integer from temp_discos;
-select * from genero;
 
-
+create table edicion(
+    formato text,
+    pais text,
+    año_edicion int,
+    primary key (formato,año_edicion,pais)
+);
+insert into edicion(formato, pais, año_edicion) select distinct formato, pais, año::integer from temp_ediciones;
 rollback;
