@@ -4,7 +4,7 @@ begin;
 -- Tablas temporales nombradas temp_(nombre del fichero a insertar en la tabla.)
 \echo 'Creación de tablas temporales canciones, discos, ediciones, usuario_desea_disco, usuario_tiene_edición y usuarios:'
 create table temp_canciones(
-    id int,
+    id text,
     titulo text,
     duracion text
 );
@@ -97,4 +97,18 @@ create table edicion(
     primary key (formato,año_edicion,pais)
 );
 insert into edicion(formato, pais, año_edicion) select distinct formato, pais, año::integer from temp_ediciones;
+
+create table canciones(
+    titulo text,
+    titulo_disco text,
+    año_publicacion_disco int,
+    duracion time,
+    primary key (titulo,titulo_disco,año_publicacion_disco)
+);
+
+INSERT INTO canciones (titulo, titulo_disco, año_publicacion_disco, duracion)
+select distinct temp_canciones.titulo, temp_discos.nombre AS titulo_disco, temp_discos.fecha_lanzamiento::integer AS año_publicacion_disco, time '00:00:00' + make_interval(hours := 0, minutes := split_part(temp_canciones.duracion, ':', 1)::integer, seconds := split_part(temp_canciones.duracion, ':', 2)::integer)::time as duracion from temp_canciones join temp_discos ON temp_canciones.id = temp_discos.id;
+--insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion) select distinct temp_canciones.titulo, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer, time 00:00:00 make_interval(hours := 0, minutes := split_part(temp_canciones.duracion, ':', 1), seconds := split_part(temp_canciones.duracion, ':', 2))::time from temp_canciones join temp_discos on temp_canciones.id = temp_discos.id;  
+select * from canciones;
+
 rollback;
