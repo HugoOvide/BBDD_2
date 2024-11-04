@@ -63,7 +63,7 @@ create table temp_usuarios(
 COPY temp_usuarios FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/usuarios.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 -- Tablas del diagrama relacional, nombradas como en el diagrama relacional en singular.
-\echo 'Creación de las tablas del modelor relacional:'
+\echo 'Creación de las tablas del modelo relacional:'
 
 create table grupo(
     nombre text primary key,
