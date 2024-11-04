@@ -106,7 +106,7 @@ create table canciones(
     primary key (titulo,titulo_disco,año_publicacion_disco)
 );
 
-insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion) select distinct temp_canciones.titulo, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer, to_char(make_interval(hours := 0, minutes := split_part(temp_canciones.duracion, ':', 1), seconds := split_part(temp_canciones.duracion, ':', 2)),'HH:MM:SS')::time from temp_canciones join temp_discos on temp_canciones.id = temp_discos.id;  
+insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion) select distinct temp_canciones.titulo, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer, to_char(make_interval(hours => 0, mins => split_part(temp_canciones.duracion, ':', 1)::int, secs => split_part(temp_canciones.duracion, ':', 2)::int),'HH24:MM:SS')::time from temp_canciones join temp_discos on temp_canciones.id = temp_discos.id;  
 select * from canciones;
 
 rollback;
