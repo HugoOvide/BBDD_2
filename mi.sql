@@ -65,38 +65,31 @@ COPY temp_usuarios FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BA
 -- Tablas del diagrama relacional, nombradas como en el diagrama relacional en singular.
 \echo 'Creación de las tablas del modelo relacional:'
 
-create table grupo(
+create table grupos(
     nombre text primary key,
     url text
 );
-insert into grupo (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
-\d grupo
+insert into grupos (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
+\d grupos
 
-create table disco(
+create table discos(
     titulo text,
     año_publicacion integer,
     url_portada text,
     nombre_grupo text,
     primary key (titulo, año_publicacion, nombre_grupo)
 );
-\d disco
-insert into disco (titulo, año_publicacion, url_portada, nombre_grupo) select distinct nombre, fecha_lanzamiento::integer, url_portada, nombre_grupo from temp_discos;
+\d discos
+insert into discos (titulo, año_publicacion, url_portada, nombre_grupo) select distinct on (nombre, fecha_lanzamiento, nombre_grupo) nombre, fecha_lanzamiento::integer, url_portada, nombre_grupo from temp_discos;
 
-create table genero(
+create table generos(
     nombre text,
     titulo_disco text,
     año_pub_disco int,
     primary key (titulo_disco,año_pub_disco,nombre)
 );
-insert into genero (nombre, titulo_disco, año_pub_disco) select distinct regexp_split_to_table(replace(replace(replace(genero,'[',''),'''',''),']',''),',\s'), nombre, fecha_lanzamiento::integer from temp_discos;
-
-create table edicion(
-    formato text,
-    pais text,
-    año_edicion int,
-    primary key (formato,año_edicion,pais)
-);
-insert into edicion(formato, pais, año_edicion) select distinct formato, pais, año::integer from temp_ediciones;
+\d generos
+insert into generos (nombre, titulo_disco, año_pub_disco) select distinct regexp_split_to_table(replace(replace(replace(genero,'[',''),'''',''),']',''),',\s'), nombre, fecha_lanzamiento::integer from temp_discos;
 
 create table canciones(
     titulo text,
@@ -105,11 +98,49 @@ create table canciones(
     duracion time,
     primary key (titulo,titulo_disco,año_publicacion_disco)
 );
-
+\d canciones
 insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion)
     select distinct on (temp_canciones.titulo, temp_discos.nombre, temp_discos.fecha_lanzamiento)temp_canciones.titulo, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer, 
         to_char(
             make_interval(hours => 0, mins => split_part(temp_canciones.duracion, ':', 1)::int, secs => split_part(temp_canciones.duracion, ':', 2)::int),'HH24:MM:SS')::time 
             from temp_canciones join temp_discos on temp_canciones.id = temp_discos.id;  
 
+create table ediciones(
+    formato text,
+    año_edicion text,
+    pais text,
+    titulo_disco text,
+    año_disco integer,
+    primary key (formato,año_edicion,pais,titulo_disco,año_disco)
+);
+\d ediciones
+insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
+    select distinct on (temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento) 
+        temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer 
+            from temp_ediciones join temp_discos on temp_ediciones.id = temp_discos.id;
+
+create table usuarios(
+    nombre_usuario text primary key,
+    nombre text,
+    email text,
+    password text
+);
+\d usuarios
+insert into usuarios (nombre_usuario, nombre, email, password)
+    select temp_usuarios.nombre_usuario, temp_usuarios.nombre_completo, temp_usuarios.email, temp_usuarios.password from temp_usuarios;
+
+create table usuarios_desean_discos(
+    nombre_usuario text,
+    titulo text,
+    año_publicacion int,
+    primary key (nombre_usuario, titulo, año_publicacion),
+    foreign key (nombre_usuario) references usuarios(nombre_usuario),
+    foreign key (titulo) references discos(titulo),
+    foreign key (año_publicacion) references discos(año_publicacion)
+);
+\d usuarios_desean_discos
+insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
+    select temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento 
+        from temp_usuario_desea_disco;
+select * from usuarios_desean_discos;
 rollback;
