@@ -133,14 +133,29 @@ create table usuarios_desean_discos(
     nombre_usuario text,
     titulo text,
     año_publicacion int,
-    primary key (nombre_usuario, titulo, año_publicacion),
-    foreign key (nombre_usuario) references usuarios(nombre_usuario),
-    foreign key (titulo) references discos(titulo),
-    foreign key (año_publicacion) references discos(año_publicacion)
+    primary key (nombre_usuario, titulo, año_publicacion)
 );
 \d usuarios_desean_discos
 insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
-    select temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento 
-        from temp_usuario_desea_disco;
-select * from usuarios_desean_discos;
+    select distinct on (temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento) 
+        temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento::integer
+            from temp_usuario_desea_disco;
+
+create table usuario_tienen_ediciones(
+    nombre_usuario text,
+    titulo_disco text,
+    año_lanzamiento_disco integer,
+    año_edicion integer,
+    pais_edicion text,
+    formato text,
+    estado text,
+    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
+);
+\d usuario_tienen_ediciones
+insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
+    select temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
+            temp_usuario_tiene_edicion.año_edicion::integer,temp_usuario_tiene_edicion.pais_edicion,temp_usuario_tiene_edicion.formato,
+                temp_usuario_tiene_edicion.estado from temp_usuario_tiene_edicion;
+
+select * from usuario_tienen_ediciones;
 rollback;
