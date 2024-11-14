@@ -122,7 +122,7 @@ insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
 create table usuarios(
     nombre_usuario text primary key,
     nombre text,
-    email text,
+    email text, 
     password text
 );
 \d usuarios
@@ -158,4 +158,81 @@ insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamien
                 temp_usuario_tiene_edicion.estado from temp_usuario_tiene_edicion;
 
 select * from usuario_tienen_ediciones;
+
+\echo "Consultas en SQL sobre la base de datos"
+\echo "Mostrar los discos que tengan más de 5 canciones. Construir la expresión equivalente en álgebra relacional."
+SELECT discos.titulo
+FROM discos
+JOIN canciones ON discos.titulo = canciones.titulo_disco
+GROUP BY discos.titulo
+HAVING COUNT(canciones.titulo) > 5;
+\echo "Mostrar los vinilos que tiene el usuario Juan García Gómez junto con el título del disco, y el país y año de edición del mismo"
+SELECT discos.titulo, ediciones.pais, e.anio
+FROM usuarios u
+JOIN ediciones e ON u.id = e.usuario_id
+JOIN discos d ON e.disco_id = d.id
+WHERE u.nombre = 'Juan García Gómez';
+/*\echo "Disco con mayor duración de la colección. Construir la expresión equivalente en álgebra relacional."
+SELECT d.titulo
+FROM discos d
+ORDER BY d.duracion DESC
+LIMIT 1;
+\echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
+SELECT g.nombre
+FROM deseos de
+JOIN usuarios u ON de.usuario_id = u.id
+JOIN discos d ON de.disco_id = d.id
+JOIN grupos g ON d.grupo_id = g.id
+WHERE u.nombre = 'Juan García Gómez';
+\echo "Mostrar los discos publicados entre 1970 y 1972 junto con sus ediciones ordenados por el año de publicación."
+SELECT d.titulo, e.anio
+FROM discos d
+JOIN ediciones e ON d.id = e.disco_id
+WHERE d.anio_publicacion BETWEEN 1970 AND 1972
+ORDER BY d.anio_publicacion;
+\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
+SELECT g.nombre
+FROM grupos g
+JOIN discos d ON g.id = d.grupo_id
+JOIN generos ge ON d.genero_id = ge.id
+WHERE ge.nombre = 'Electronic';
+\echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
+SELECT d.titulo, SUM(c.duracion) AS duracion_total
+FROM discos d
+JOIN canciones c ON d.id = c.disco_id
+WHERE d.anio_publicacion < 2000
+GROUP BY d.titulo;
+\echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
+SELECT e.*
+FROM deseos de
+JOIN usuarios u1 ON de.usuario_id = u1.id
+JOIN ediciones e ON de.disco_id = e.disco_id
+JOIN usuarios u2 ON e.usuario_id = u2.id
+WHERE u1.nombre = 'Lorena Sáez Pérez' AND u2.nombre = 'Juan García Gómez';
+\echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
+SELECT e.*
+FROM usuarios u
+JOIN ediciones e ON u.id = e.usuario_id
+WHERE u.nombre = 'Gómez García' AND e.estado IN ('NM', 'M');
+\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
+disco más nuevo, y el año medio de todos sus discos de su colección"
+SELECT u.nombre, COUNT(e.id) AS num_ediciones, MIN(d.anio_publicacion) AS anio_mas_antiguo, MAX(d.anio_publicacion) AS anio_mas_nuevo, AVG(d.anio_publicacion) AS anio_medio
+FROM usuarios u
+JOIN ediciones e ON u.id = e.usuario_id
+JOIN discos d ON e.disco_id = d.id
+GROUP BY u.nombre;
+\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
+SELECT g.nombre
+FROM grupos g
+JOIN discos d ON g.id = d.grupo_id
+JOIN ediciones e ON d.id = e.disco_id
+GROUP BY g.nombre
+HAVING COUNT(e.id) > 5;
+\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"
+SELECT u.nombre
+FROM usuarios u
+JOIN ediciones e ON u.id = e.usuario_id
+GROUP BY u.nombre
+ORDER BY COUNT(e.id) DESC
+LIMIT 1;*/
 rollback;
