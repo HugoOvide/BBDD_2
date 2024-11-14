@@ -113,7 +113,7 @@ CREATE TABLE
     Column    |  Type   | Collation | Nullable | Default 
 --------------+---------+-----------+----------+---------
  formato      | text    |           | not null | 
- año_edicion  | text    |           | not null | 
+ año_edicion  | integer |           | not null | 
  pais         | text    |           | not null | 
  titulo_disco | text    |           | not null | 
  año_disco    | integer |           | not null | 
@@ -144,6 +144,7 @@ Indexes:
     "usuarios_desean_discos_pkey" PRIMARY KEY, btree (nombre_usuario, titulo, "año_publicacion")
 
 INSERT 0 204
+CREATE TYPE
 CREATE TABLE
              Table "public.usuario_tienen_ediciones"
         Column         |  Type   | Collation | Nullable | Default 
@@ -154,7 +155,7 @@ CREATE TABLE
  año_edicion           | integer |           | not null | 
  pais_edicion          | text    |           | not null | 
  formato               | text    |           | not null | 
- estado                | text    |           | not null | 
+ estado                | estado  |           | not null | 
 Indexes:
     "usuario_tienen_ediciones_pkey" PRIMARY KEY, btree (nombre_usuario, titulo_disco, "año_lanzamiento_disco", "año_edicion", pais_edicion, formato, estado)
 
@@ -1021,5 +1022,22 @@ INSERT 0 362
  Хроника Парнишки С Гомельских Улиц
  盡在不言中
 (493 rows)
+
+                 titulo_disco                 | pais_edicion | año_edicion 
+----------------------------------------------+--------------+-------------
+ Your Sweet Love / Just As Much As Ever       | Australia    |        1959
+ Legends Of Rock, Vol. 2, Rare Items          | Germany      |        1974
+ The New Star Of The Italian Radio-Television | Australia    |        1961
+ Way To Normal                                | US           |        2008
+ I'm Alright / So Near And Yet So Far         | US           |           0
+ Old Fashioned Feeling                        | Netherlands  |        1972
+ Sound Of Speed Circles Vol.1                 | Japan        |           0
+ Playmobil 7 EP                               | Netherlands  |        2009
+(8 rows)
+
+ titulo | duracion_total 
+--------+----------------
+ (Void) | 
+(1 row)
 
 ROLLBACK

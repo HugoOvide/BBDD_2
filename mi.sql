@@ -107,7 +107,7 @@ insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion)
 
 create table ediciones(
     formato text,
-    año_edicion text,
+    año_edicion integer,
     pais text,
     titulo_disco text,
     año_disco integer,
@@ -116,7 +116,7 @@ create table ediciones(
 \d ediciones
 insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
     select distinct on (temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento) 
-        temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer 
+        temp_ediciones.formato, temp_ediciones.año::integer, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer 
             from temp_ediciones join temp_discos on temp_ediciones.id = temp_discos.id;
 
 create table usuarios(
@@ -141,6 +141,8 @@ insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
         temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento::integer
             from temp_usuario_desea_disco;
 
+create type estado as enum ('M', 'NM', 'EX', 'VG+', 'VG', 'G', 'F');
+
 create table usuario_tienen_ediciones(
     nombre_usuario text,
     titulo_disco text,
@@ -148,36 +150,38 @@ create table usuario_tienen_ediciones(
     año_edicion integer,
     pais_edicion text,
     formato text,
-    estado text,
+    estado estado,
     primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
 );
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
     select temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
             temp_usuario_tiene_edicion.año_edicion::integer,temp_usuario_tiene_edicion.pais_edicion,temp_usuario_tiene_edicion.formato,
-                temp_usuario_tiene_edicion.estado from temp_usuario_tiene_edicion;
+                temp_usuario_tiene_edicion.estado::estado from temp_usuario_tiene_edicion;
 
 select * from usuario_tienen_ediciones;
 
 \echo "Consultas en SQL sobre la base de datos"
 \echo "Mostrar los discos que tengan más de 5 canciones. Construir la expresión equivalente en álgebra relacional."
-SELECT discos.titulo
-FROM discos
-JOIN canciones ON discos.titulo = canciones.titulo_disco
-GROUP BY discos.titulo
-HAVING COUNT(canciones.titulo) > 5;
+select discos.titulo
+from discos
+join canciones on discos.titulo = canciones.titulo_disco
+group by discos.titulo
+having count(canciones.titulo) > 5;
 \echo "Mostrar los vinilos que tiene el usuario Juan García Gómez junto con el título del disco, y el país y año de edición del mismo"
-SELECT discos.titulo, ediciones.pais, e.anio
-FROM usuarios u
-JOIN ediciones e ON u.id = e.usuario_id
-JOIN discos d ON e.disco_id = d.id
-WHERE u.nombre = 'Juan García Gómez';
-/*\echo "Disco con mayor duración de la colección. Construir la expresión equivalente en álgebra relacional."
-SELECT d.titulo
-FROM discos d
-ORDER BY d.duracion DESC
-LIMIT 1;
-\echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
+select usuario_tienen_ediciones.titulo_disco, usuario_tienen_ediciones.pais_edicion, usuario_tienen_ediciones.año_edicion
+from usuario_tienen_ediciones
+join usuarios on usuario_tienen_ediciones.nombre_usuario = usuarios.nombre_usuario
+where usuario_tienen_ediciones.formato = 'Vinyl' and usuarios.nombre = 'Juan García Gómez';
+\echo "Disco con mayor duración de la colección. Construir la expresión equivalente en álgebra relacional."
+select discos.titulo, sum(canciones.duracion) as duracion_total
+from discos 
+join canciones 
+on discos.titulo = canciones.titulo_disco
+group by discos.titulo
+order by duracion_total DESC
+limit 1;
+/*\echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
 SELECT g.nombre
 FROM deseos de
 JOIN usuarios u ON de.usuario_id = u.id
