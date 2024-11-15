@@ -3159,18 +3159,75 @@ INSERT 0 362
  Way To Normal                         | Ben Folds
 (13 rows)
 
-                      titulo                      | año_publicacion | año_edicion |    pais    | formato | año_disco 
---------------------------------------------------+-----------------+-------------+------------+---------+-----------
- Blue Moon Of Kentucky                            |            1971 |        1954 | US         | Shellac |      1971
- Blue Moon Of Kentucky                            |            1971 |        1954 | US         | Vinyl   |      1971
- Los Rebeldes Del Rock                            |            1971 |        1960 | Mexico     | Vinyl   |      1971
- Try A Little Tenderness / She Put The Hurt On Me |            1971 |        1967 | France     | Vinyl   |      1971
- Try A Little Tenderness / She Put The Hurt On Me |            1971 |        1971 | France     | Vinyl   |      1971
- Los Rebeldes Del Rock                            |            1971 |        1971 | Mexico     | Vinyl   |      1971
- And That's A Fact With My Hand Up!               |            1971 |        1971 | US         | Vinyl   |      1971
- Blue Moon Of Kentucky                            |            1971 |        1971 | US         | Vinyl   |      1971
- Obećanje / Klik-Klak                             |            1971 |        1971 | Yugoslavia | Vinyl   |      1971
- And That's A Fact With My Hand Up!               |            1971 |        1986 | US         | Vinyl   |      1971
-(10 rows)
+                                      titulo                                       | año_publicacion | año_edicion |     pais     | formato | año_disco |                                   titulo_disco                                    
+-----------------------------------------------------------------------------------+-----------------+-------------+--------------+---------+-----------+-----------------------------------------------------------------------------------
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |        1972 | France       | Vinyl   |      1972 | Theodorakis Dirige Theodorakis, Vol 2
+ Die Schöne Müllerin                                                               |            1972 |        1972 | Germany      | Vinyl   |      1972 | Die Schöne Müllerin
+ Ma Liberté                                                                        |            1972 |        1972 | Germany      | Vinyl   |      1972 | Ma Liberté
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |        1972 | Germany      | Vinyl   |      1972 | Theodorakis Dirige Theodorakis, Vol 2
+ Will The Circe Be Unbroken                                                        |            1972 |        1972 | Jamaica      | Vinyl   |      1972 | Will The Circe Be Unbroken
+ Otello Highlights                                                                 |            1972 |        1961 | UK           | Vinyl   |      1972 | Otello Highlights
+ The World Of Donovan                                                              |            1972 |        1969 | UK           | Vinyl   |      1972 | The World Of Donovan
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |           0 | France       | Vinyl   |      1972 | Theodorakis Dirige Theodorakis, Vol 2
+ Die Schöne Müllerin                                                               |            1972 |           0 | Germany      | Vinyl   |      1972 | Die Schöne Müllerin
+ Ma Liberté                                                                        |            1972 |           0 | Germany      | Vinyl   |      1972 | Ma Liberté
+ Live At Sing Sing                                                                 |            1972 |           0 | US           | Vinyl   |      1972 | Live At Sing Sing
+ Home                                                                              |            1972 |        2019 | US           | Vinyl   |      1972 | Home
+ Best Of Me                                                                        |            1972 |        1999 | Europe       | CD      |      1972 | Best Of Me
+ Rockfish Crossing                                                                 |            1972 |        1972 | Canada       | Vinyl   |      1972 | Rockfish Crossing
+ Music From The Godfather                                                          |            1972 |        1972 | France       | Vinyl   |      1972 | Music From The Godfather
+ The World Of Donovan                                                              |            1972 |        1972 | Netherlands  | Vinyl   |      1972 | The World Of Donovan
+ Home                                                                              |            1972 |        1972 | UK           | Vinyl   |      1972 | Home
+ Lady Day And John Coltrane                                                        |            1972 |        1972 | UK           | Vinyl   |      1972 | Lady Day And John Coltrane
+ Music From The Godfather                                                          |            1972 |        1972 | UK           | Vinyl   |      1972 | Music From The Godfather
+ Best Of Me                                                                        |            1972 |        1972 | US           | Vinyl   |      1972 | Best Of Me
+ Lady Day And John Coltrane                                                        |            1972 |        1972 | US           | Vinyl   |      1972 | Lady Day And John Coltrane
+ Live At Sing Sing                                                                 |            1972 |        1972 | US           | Vinyl   |      1972 | Live At Sing Sing
+ Music From The Godfather                                                          |            1972 |        1972 | US           | Vinyl   |      1972 | Music From The Godfather
+ Otello Highlights                                                                 |            1972 |        1972 | US           | Vinyl   |      1972 | Otello Highlights
+ Rockfish Crossing                                                                 |            1972 |        1972 | US           | Vinyl   |      1972 | Rockfish Crossing
+ Under The Arch                                                                    |            1972 |        1972 | US           | Vinyl   |      1972 | Under The Arch
+ Los Rebeldes Del Rock                                                             |            1971 |        1960 | Mexico       | Vinyl   |      1971 | Los Rebeldes Del Rock
+ Obećanje / Klik-Klak                                                              |            1971 |        1971 | Yugoslavia   | Vinyl   |      1971 | Obećanje / Klik-Klak
+ And That's A Fact With My Hand Up!                                                |            1971 |        1971 | US           | Vinyl   |      1971 | And That's A Fact With My Hand Up!
+ Blue Moon Of Kentucky                                                             |            1971 |        1954 | US           | Vinyl   |      1971 | Blue Moon Of Kentucky
+ And That's A Fact With My Hand Up!                                                |            1971 |        1986 | US           | Vinyl   |      1971 | And That's A Fact With My Hand Up!
+ Blue Moon Of Kentucky                                                             |            1971 |        1954 | US           | Shellac |      1971 | Blue Moon Of Kentucky
+ Try A Little Tenderness / She Put The Hurt On Me                                  |            1971 |        1967 | France       | Vinyl   |      1971 | Try A Little Tenderness / She Put The Hurt On Me
+ Try A Little Tenderness / She Put The Hurt On Me                                  |            1971 |        1971 | France       | Vinyl   |      1971 | Try A Little Tenderness / She Put The Hurt On Me
+ Los Rebeldes Del Rock                                                             |            1971 |        1971 | Mexico       | Vinyl   |      1971 | Los Rebeldes Del Rock
+ Blue Moon Of Kentucky                                                             |            1971 |        1971 | US           | Vinyl   |      1971 | Blue Moon Of Kentucky
+ Funky Chicken                                                                     |            1970 |        2023 | USA & Canada | Vinyl   |      1970 | Funky Chicken
+ Home To You                                                                       |            1970 |        1999 | US           | CD      |      1970 | Home To You
+ Home To You                                                                       |            1970 |        2006 | Europe       | CD      |      1970 | Home To You
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        1961 | US           | Vinyl   |      1970 | Afternoon Of A Faun, Nocturnes, Jeux
+ I Can't Let Go Of Your Love                                                       |            1970 |        1970 | Australia    | Vinyl   |      1970 | I Can't Let Go Of Your Love
+ Rock And Roll Madonna                                                             |            1970 |        1970 | Belgium      | Vinyl   |      1970 | Rock And Roll Madonna
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |            1970 |        1970 | Canada       | Vinyl   |      1970 | Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl
+ Rock And Roll Madonna                                                             |            1970 |        1970 | Germany      | Vinyl   |      1970 | Rock And Roll Madonna
+ Old Fashioned Feeling                                                             |            1970 |        1970 | Japan        | Vinyl   |      1970 | Old Fashioned Feeling
+ Funky Chicken                                                                     |            1970 |        1970 | UK           | Vinyl   |      1970 | Funky Chicken
+ Rock And Roll Madonna                                                             |            1970 |        1970 | UK           | Vinyl   |      1970 | Rock And Roll Madonna
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        1970 | US           | Vinyl   |      1970 | Afternoon Of A Faun, Nocturnes, Jeux
+ Bridge Over Troubled Water / Get Ready                                            |            1970 |        1970 | US           | Vinyl   |      1970 | Bridge Over Troubled Water / Get Ready
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |            1970 |        1970 | US           | Vinyl   |      1970 | Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl
+ Funky Chicken                                                                     |            1970 |        1970 | US           | Vinyl   |      1970 | Funky Chicken
+ Gold                                                                              |            1970 |        1970 | US           | Vinyl   |      1970 | Gold
+ Home To You                                                                       |            1970 |        1970 | US           | Vinyl   |      1970 | Home To You
+ The Next Time I'm In Town                                                         |            1970 |        1970 | US           | Vinyl   |      1970 | The Next Time I'm In Town
+ Water                                                                             |            1970 |        1970 | US           | Vinyl   |      1970 | Water
+ Old Fashioned Feeling                                                             |            1970 |        1972 | Netherlands  | Vinyl   |      1970 | Old Fashioned Feeling
+ I Can't Let Go Of Your Love                                                       |            1970 |        1974 | UK           | Vinyl   |      1970 | I Can't Let Go Of Your Love
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Europe       | Vinyl   |      1970 | The Next Time I'm In Town
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Norway       | Vinyl   |      1970 | The Next Time I'm In Town
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Spain        | Vinyl   |      1970 | The Next Time I'm In Town
+ Water                                                                             |            1970 |        1993 | UK           | Vinyl   |      1970 | Water
+ Funky Chicken                                                                     |            1970 |        1995 | UK           | Vinyl   |      1970 | Funky Chicken
+ Gold                                                                              |            1970 |        1996 | UK           | Vinyl   |      1970 | Gold
+ Gold                                                                              |            1970 |        1997 | UK           | Vinyl   |      1970 | Gold
+ Home To You                                                                       |            1970 |        2010 | UK           | Vinyl   |      1970 | Home To You
+ Water                                                                             |            1970 |        2013 | UK           | Vinyl   |      1970 | Water
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        2018 | Germany      | Vinyl   |      1970 | Afternoon Of A Faun, Nocturnes, Jeux
+(67 rows)
 
 ROLLBACK

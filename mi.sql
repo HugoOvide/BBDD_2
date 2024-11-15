@@ -192,7 +192,7 @@ where usuarios.nombre = 'Juan García Gómez';
 select discos.titulo, discos.año_publicacion, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_disco
 from discos
 join ediciones on discos.titulo = ediciones.titulo_disco
-where discos.año_publicacion < 1972 and discos.año_publicacion > 1970
+where discos.año_publicacion <= 1972 and discos.año_publicacion >= 1970
 order by ediciones.año_disco desc;
 
 /*\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
