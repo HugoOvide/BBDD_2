@@ -118,7 +118,7 @@ insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
     select distinct on (temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento) 
         temp_ediciones.formato, temp_ediciones.año::integer, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer 
             from temp_ediciones join temp_discos on temp_ediciones.id = temp_discos.id;
-
+select * from ediciones;
 create table usuarios(
     nombre_usuario text primary key,
     nombre text,
@@ -181,62 +181,33 @@ on discos.titulo = canciones.titulo_disco
 group by discos.titulo
 order by duracion_total DESC
 limit 1;
-/*\echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
-SELECT g.nombre
-FROM deseos de
-JOIN usuarios u ON de.usuario_id = u.id
-JOIN discos d ON de.disco_id = d.id
-JOIN grupos g ON d.grupo_id = g.id
-WHERE u.nombre = 'Juan García Gómez';
+\echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
+select usuarios_desean_discos.titulo, grupos.nombre
+from usuarios_desean_discos
+join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
+join discos on usuarios_desean_discos.titulo = discos.titulo
+join grupos on discos.nombre_grupo = grupos.nombre
+where usuarios.nombre = 'Juan García Gómez';
 \echo "Mostrar los discos publicados entre 1970 y 1972 junto con sus ediciones ordenados por el año de publicación."
-SELECT d.titulo, e.anio
-FROM discos d
-JOIN ediciones e ON d.id = e.disco_id
-WHERE d.anio_publicacion BETWEEN 1970 AND 1972
-ORDER BY d.anio_publicacion;
-\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
-SELECT g.nombre
-FROM grupos g
-JOIN discos d ON g.id = d.grupo_id
-JOIN generos ge ON d.genero_id = ge.id
-WHERE ge.nombre = 'Electronic';
+select discos.titulo, discos.año_publicacion, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_disco
+from discos
+join ediciones on discos.titulo = ediciones.titulo_disco
+where discos.año_publicacion < 1972 and discos.año_publicacion > 1970
+order by ediciones.año_disco desc;
+
+/*\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
+
 \echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
-SELECT d.titulo, SUM(c.duracion) AS duracion_total
-FROM discos d
-JOIN canciones c ON d.id = c.disco_id
-WHERE d.anio_publicacion < 2000
-GROUP BY d.titulo;
+
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
-SELECT e.*
-FROM deseos de
-JOIN usuarios u1 ON de.usuario_id = u1.id
-JOIN ediciones e ON de.disco_id = e.disco_id
-JOIN usuarios u2 ON e.usuario_id = u2.id
-WHERE u1.nombre = 'Lorena Sáez Pérez' AND u2.nombre = 'Juan García Gómez';
+
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
-SELECT e.*
-FROM usuarios u
-JOIN ediciones e ON u.id = e.usuario_id
-WHERE u.nombre = 'Gómez García' AND e.estado IN ('NM', 'M');
+
 \echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
 disco más nuevo, y el año medio de todos sus discos de su colección"
-SELECT u.nombre, COUNT(e.id) AS num_ediciones, MIN(d.anio_publicacion) AS anio_mas_antiguo, MAX(d.anio_publicacion) AS anio_mas_nuevo, AVG(d.anio_publicacion) AS anio_medio
-FROM usuarios u
-JOIN ediciones e ON u.id = e.usuario_id
-JOIN discos d ON e.disco_id = d.id
-GROUP BY u.nombre;
+
 \echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
-SELECT g.nombre
-FROM grupos g
-JOIN discos d ON g.id = d.grupo_id
-JOIN ediciones e ON d.id = e.disco_id
-GROUP BY g.nombre
-HAVING COUNT(e.id) > 5;
-\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"
-SELECT u.nombre
-FROM usuarios u
-JOIN ediciones e ON u.id = e.usuario_id
-GROUP BY u.nombre
-ORDER BY COUNT(e.id) DESC
-LIMIT 1;*/
+
+\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"*/
+
 rollback;
