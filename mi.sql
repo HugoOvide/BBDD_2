@@ -9,7 +9,7 @@ create table temp_canciones(
     duracion text
 );
 \d temp_canciones
-COPY temp_canciones FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_canciones FROM ./datosCSV/canciones.csv WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_discos(
     id text,
@@ -22,7 +22,7 @@ create table temp_discos(
     url_portada text
 );
 \d temp_discos
-COPY temp_discos FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/discos.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_discos FROM './datosCSV/discos.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_ediciones(
     id text,
@@ -31,7 +31,7 @@ create table temp_ediciones(
     formato text
 );
 \d temp_ediciones
-COPY temp_ediciones FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/ediciones.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_ediciones FROM './ediciones.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuario_desea_disco(
     nombre text,
@@ -39,7 +39,7 @@ create table temp_usuario_desea_disco(
     año_lanzamiento text
 );
 \d temp_usuario_desea_disco
-COPY temp_usuario_desea_disco FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/usuario_desea_disco.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_usuario_desea_disco FROM './usuario_desea_disco.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuario_tiene_edicion(
     nombre text,
@@ -51,7 +51,7 @@ create table temp_usuario_tiene_edicion(
     estado text
 );
 \d temp_usuario_tiene_edicion
-COPY temp_usuario_tiene_edicion FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/usuario_tiene_edicion.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_usuario_tiene_edicion FROM './usuario_tiene_edicion.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuarios(
     nombre_completo text,
@@ -60,7 +60,7 @@ create table temp_usuarios(
     password text
 );
 \d temp_usuarios
-COPY temp_usuarios FROM '/Users/hol/Documents/Biblioteca_Asignaturas/3º AÑO/BASES DE DATOS/BBDD_2/usuarios.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_usuarios FROM './usuarios.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 -- Tablas del diagrama relacional, nombradas como en el diagrama relacional en singular.
 \echo 'Creación de las tablas del modelo relacional:'
@@ -194,10 +194,9 @@ from discos
 join ediciones on discos.titulo = ediciones.titulo_disco
 where discos.año_publicacion <= 1972 and discos.año_publicacion >= 1970
 order by ediciones.año_disco desc;
+\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
 
-/*\echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
-
-\echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
+/*\echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
 
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
 
