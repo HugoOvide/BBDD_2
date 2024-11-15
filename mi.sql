@@ -9,7 +9,7 @@ create table temp_canciones(
     duracion text
 );
 \d temp_canciones
-COPY temp_canciones FROM ./datosCSV/canciones.csv WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+COPY temp_canciones FROM './datosCSV/canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_discos(
     id text,
