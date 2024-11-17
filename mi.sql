@@ -1,6 +1,12 @@
 begin;
 -- Fichero donde se vuelca la información en vez de terminal.
 \o output_file.txt
+
+/*En las tablas temporales que copiamos los datos de los ficheros .csv, el \copy nos permite usar la ruta relativa de los ficheros csv que se
+hayan dentro del directorio, ya que realizan la consulta desde el cliente y no desde el servidor de postgres de esta manera pordemos utilizar 
+./nombre del fichero csv y así se pueda ejecutar en cualquier dispositivo sin necesidad de tener una ruta concreta que cambia dependiendo de
+este.*/
+
 -- Tablas temporales nombradas temp_(nombre del fichero a insertar en la tabla.)
 \echo 'Creación de tablas temporales canciones, discos, ediciones, usuario_desea_disco, usuario_tiene_edición y usuarios:'
 create table temp_canciones(
@@ -9,7 +15,7 @@ create table temp_canciones(
     duracion text
 );
 \d temp_canciones
-COPY temp_canciones FROM './datosCSV/canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_canciones FROM './canciones.csv' WITH (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_discos(
     id text,
@@ -22,7 +28,7 @@ create table temp_discos(
     url_portada text
 );
 \d temp_discos
-COPY temp_discos FROM './datosCSV/discos.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_discos FROM './discos.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_ediciones(
     id text,
@@ -31,7 +37,7 @@ create table temp_ediciones(
     formato text
 );
 \d temp_ediciones
-COPY temp_ediciones FROM './ediciones.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_ediciones FROM './ediciones.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuario_desea_disco(
     nombre text,
@@ -39,7 +45,7 @@ create table temp_usuario_desea_disco(
     año_lanzamiento text
 );
 \d temp_usuario_desea_disco
-COPY temp_usuario_desea_disco FROM './usuario_desea_disco.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_usuario_desea_disco FROM './usuario_desea_disco.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuario_tiene_edicion(
     nombre text,
@@ -51,7 +57,7 @@ create table temp_usuario_tiene_edicion(
     estado text
 );
 \d temp_usuario_tiene_edicion
-COPY temp_usuario_tiene_edicion FROM './usuario_tiene_edicion.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_usuario_tiene_edicion FROM './usuario_tiene_edicion.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 create table temp_usuarios(
     nombre_completo text,
@@ -60,7 +66,7 @@ create table temp_usuarios(
     password text
 );
 \d temp_usuarios
-COPY temp_usuarios FROM './usuarios.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
+\copy temp_usuarios FROM './usuarios.csv' WITH  (FORMAT csv, HEADER, DELIMITER E';', NULL 'NULL', ENCODING 'UTF-8');
 
 -- Tablas del diagrama relacional, nombradas como en el diagrama relacional en singular.
 \echo 'Creación de las tablas del modelo relacional:'
