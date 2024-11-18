@@ -71,12 +71,14 @@ create table temp_usuarios(
 -- Tablas del diagrama relacional, nombradas como en el diagrama relacional en singular.
 \echo 'Creación de las tablas del modelo relacional:'
 
+
 create table grupos(
     nombre text primary key,
     url text
 );
 insert into grupos (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
 \d grupos
+
 
 create table discos(
     titulo text,
@@ -88,6 +90,7 @@ create table discos(
 \d discos
 insert into discos (titulo, año_publicacion, url_portada, nombre_grupo) select distinct on (nombre, fecha_lanzamiento, nombre_grupo) nombre, fecha_lanzamiento::integer, url_portada, nombre_grupo from temp_discos;
 
+
 create table generos(
     nombre text,
     titulo_disco text,
@@ -96,6 +99,7 @@ create table generos(
 );
 \d generos
 insert into generos (nombre, titulo_disco, año_pub_disco) select distinct regexp_split_to_table(replace(replace(replace(genero,'[',''),'''',''),']',''),',\s'), nombre, fecha_lanzamiento::integer from temp_discos;
+
 
 create table canciones(
     titulo text,
@@ -111,6 +115,7 @@ insert into canciones (titulo, titulo_disco, año_publicacion_disco, duracion)
             make_interval(hours => 0, mins => split_part(temp_canciones.duracion, ':', 1)::int, secs => split_part(temp_canciones.duracion, ':', 2)::int),'HH24:MM:SS')::time 
             from temp_canciones join temp_discos on temp_canciones.id = temp_discos.id;  
 
+
 create table ediciones(
     formato text,
     año_edicion integer,
@@ -124,7 +129,8 @@ insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
     select distinct on (temp_ediciones.formato, temp_ediciones.año, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento) 
         temp_ediciones.formato, temp_ediciones.año::integer, temp_ediciones.pais, temp_discos.nombre, temp_discos.fecha_lanzamiento::integer 
             from temp_ediciones join temp_discos on temp_ediciones.id = temp_discos.id;
-select * from ediciones;
+
+
 create table usuarios(
     nombre_usuario text primary key,
     nombre text,
@@ -165,8 +171,6 @@ insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamien
             temp_usuario_tiene_edicion.año_edicion::integer,temp_usuario_tiene_edicion.pais_edicion,temp_usuario_tiene_edicion.formato,
                 temp_usuario_tiene_edicion.estado::estado from temp_usuario_tiene_edicion;
 
-select * from usuario_tienen_ediciones;
-
 \echo "Consultas en SQL sobre la base de datos"
 \echo "Mostrar los discos que tengan más de 5 canciones. Construir la expresión equivalente en álgebra relacional."
 select discos.titulo
@@ -201,14 +205,35 @@ join ediciones on discos.titulo = ediciones.titulo_disco
 where discos.año_publicacion <= 1972 and discos.año_publicacion >= 1970
 order by ediciones.año_disco desc;
 \echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
-
-/*\echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
-
+select grupos.nombre
+from grupos 
+join discos on grupos.nombre = discos.nombre_grupo
+join generos on discos.titulo = generos.titulo_disco
+where generos.nombre = 'Electronic';
+\echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
+select discos.titulo, sum(canciones.duracion) as duracion_total
+from ediciones
+join discos on ediciones.titulo_disco = discos.titulo
+join canciones on discos.titulo = canciones.titulo
+where ediciones.año_edicion <= 2000
+group by discos.titulo;
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
-
+--No echa ningún resultado
+select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
+from ediciones
+join discos on ediciones.titulo_disco = discos.titulo
+join usuarios_desean_discos on discos.titulo = usuarios_desean_discos.titulo
+join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
+join usuario_tienen_ediciones 
+on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
+where usuarios_desean_discos.nombre_usuario = 'lorenasaez' and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
-
-\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
+select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
+from usuarios
+join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
+join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
+where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
+/*\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
 disco más nuevo, y el año medio de todos sus discos de su colección"
 
 \echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
