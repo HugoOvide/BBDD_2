@@ -167,7 +167,9 @@ create table usuario_tienen_ediciones(
 );
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
-    select temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
+    select distinct on (temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
+            temp_usuario_tiene_edicion.año_edicion::integer,temp_usuario_tiene_edicion.pais_edicion,temp_usuario_tiene_edicion.formato)
+            temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
             temp_usuario_tiene_edicion.año_edicion::integer,temp_usuario_tiene_edicion.pais_edicion,temp_usuario_tiene_edicion.formato,
                 temp_usuario_tiene_edicion.estado::estado from temp_usuario_tiene_edicion;
 
@@ -227,6 +229,15 @@ join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
 join usuario_tienen_ediciones 
 on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 where usuarios_desean_discos.nombre_usuario = 'lorenasaez' and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
+
+select e.*
+from ediciones e
+join usuarios_desean_discos udd on e.titulo_disco = udd.titulo and e.año_disco = udd.año_publicacion
+join usuarios u1 on udd.nombre_usuario = u1.nombre_usuario
+join usuario_tienen_ediciones ute on e.titulo_disco = ute.titulo_disco and e.año_disco = ute.año_lanzamiento_disco
+join usuarios u2 on ute.nombre_usuario = u2.nombre_usuario
+where u1.nombre = 'Lorena Sáez Pérez' and u2.nombre = 'Juan García Gómez';
+
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
 select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
 from usuarios

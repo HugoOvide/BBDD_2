@@ -159,4 +159,1141 @@ CREATE TABLE
 Indexes:
     "usuario_tienen_ediciones_pkey" PRIMARY KEY, btree (nombre_usuario, titulo_disco, "año_lanzamiento_disco", "año_edicion", pais_edicion, formato)
 
+INSERT 0 360
+                                        titulo                                        
+--------------------------------------------------------------------------------------
+ (Void)
+ -In-A-Gadda-Da-Vida
+ ...Verendeten Blickes
+ 10 Years - Live In Iruña
+ 1000 Sünden...
+ 12 Supersuccessi
+ 13 The Hard Way
+ 1533 St. Philip Street
+ 20 Years: The Best of Jacob Moon
+ 4
+ 50 Gates
+ 6 Track E.P.
+ 77 One More Time Volume ll
+ 7th Symphony
+ A Charlie Brown Christmas
+ A Conspiracy
+ A New Dope
+ A New High Fidelity Tripout
+ A Romantic Dream
+ A. Decap - Sound Non-Stop Dancing Volume 7
+ Absurd Reality / Flagging Water
+ Abyssal
+ Adult Crash
+ Aggressor
+ Album
+ Alibi
+ Alive Again
+ All I Can Do
+ All That We Let In
+ Alma Tädin Illuusio
+ Amazing Grace
+ American Classics For Loving And Dancing Pleasure
+ Ancient History
+ And That's A Fact With My Hand Up!
+ Annihilation
+ Arno En Concert (A La Française)
+ As Slow As Apocalypse
+ Astrology For Young Lovers
+ Attack
+ Axis Mundi
+ Babylon By Bus
+ Back To The Drawing Room
+ Backspace Unwind
+ Be A Man
+ Beggars' Hill
+ Behind The Magnolia Curtain / Blow Your Top
+ Best Of Me
+ Big Picture
+ Bigger Than Jesus
+ Birds Fly South
+ Bitter Isolation
+ Black 'N Dangerous
+ Blackbird
+ Blue Waters
+ Bluegrass Hootenanny
+ Blues Expert (Disc De Ascultare Și De Înveselire)
+ Blues With Big Bill Broonzy · Sonny Terry · Brownie McGhee
+ Bolomakoté
+ Breakout
+ Brivido Caldo
+ Brown Flag
+ Brujerizmo
+ Buddy Odor Is A Gas!
+ Burst
+ Bury Me At Sea
+ Calcutta!
+ Campfire Stories
+ Can't Get Enough
+ Candlelight
+ Cantos De Venezuela
+ Caribbean Dandee
+ Category 6
+ Cazwell And Amanda
+ Chamber Music For Flute (Complete)
+ Chants D'Auvergne Vol. 1 • Folge 1
+ Charlie Rich Sings Country & Western
+ Chinatown
+ Classics In Jazz
+ Cleanhead Blues
+ Closer
+ Colours And Lines
+ Comboio
+ Concert In Japan
+ Consuming The Rests
+ Control Agents
+ Cradle Of Life
+ Crashed Out, Wasted Useless, Hated
+ Crayon
+ Cult Of Fear
+ Cultivateur, Maître-Chantre
+ Cypher
+ Dahmer / Denak
+ Dalla Pace Del Mare Lontano
+ Darker Circles
+ De Dragul Tău
+ Deaf Wish
+ Dear Independence
+ Death Suits You
+ Definitive Perception
+ Demo 2009
+ Departures
+ Deratizer
+ Des Je T'aime
+ Die Neun Sinfonien
+ Different Times - Lou Reed In The 70s
+ Dirk Wears White Sox
+ Disco Pirata
+ Discovered Again!
+ Disko Partizani
+ Disque D'or De Julien Clerc
+ Dizzy Heights
+ Doomsday Hour
+ Dreams On Long Play
+ Early Strawbs
+ Eden's Fire
+ Eden's Island (The Music Of An Enchanted Isle)
+ Ejaculate Upon The Holy Qur'an
+ El Duende En Madrid
+ Elaine Sings Wilder
+ En Todo Estaré
+ Endnote
+ Ensemble Folklorique Timișul
+ Everybody Dance With Your Steering Wheel 
+ Evil Game
+ Ex-Cult
+ Express Way
+ Eye For An Eye
+ Fabrizio De André
+ Falscher Hase
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl
+ Feels So Good
+ Femmina
+ Filled In
+ Fish Tales / Swarthy Songs For Swabs
+ Flying Dreams
+ For Mama
+ For Pete's Sake
+ For The Rest Of Us
+ Four Chapters Of Satanic Evil
+ From Russia With Love (Original Motion Picture Soundtrack)
+ Frozen Chambers
+ Fuk Dat
+ Full Circle
+ Funky Chicken
+ G.C. Cameron
+ Get Lucky
+ Glean
+ Glen Campbell Presents
+ Golden Sounds
+ Goldfinger (Original Motion Picture Score)
+ Golpes Tocuyanos
+ Goodnight Cleveland
+ Google Me
+ Governor
+ Gracefully Chasing The Tail
+ Guerra Civil
+ Hapuslah Airmata Mu
+ Hardcore Adrenaline
+ Hate Unit
+ Hear My Train A' Comin
+ Heathers - Original Motion Picture Soundtrack
+ Heaven Knows
+ Heidenlarm
+ Heilt Nye Vei
+ Help!  (7 Song Radio Sampler)
+ Her River Raves Recollections
+ Herbal Healing
+ Here We Go Again
+ Herederos De Un Imperio
+ Heterogenial
+ High Tension
+ Hokey Pokey
+ Holst: The Planets, Op. 32
+ Home
+ Hot! Hot!
+ House Shoes & Street Corner Music Present: The Gift Vol. 5!
+ Howard Carpendale - Die LP Zur Tournee
+ Hurry Sundown
+ Hver Dag Er En Perfekt Dag
+ I Ain't Yer House-Nigger
+ I Am A Dope Fiend
+ I Am A Photograph
+ I Am Kloot
+ I Can't Let Go Of Your Love
+ I Love To Dance
+ I Wish My Life Was Based On A True Story
+ I'd Like To Teach The World To Sing
+ I'm Not So Lucky (Showcase)
+ I'm That Type Of Girl
+ II
+ Ich Fühl Mich Wohl In Deinem Leben
+ If Ever I Would Leave You
+ If You're Into It, I'm Out Of It
+ Il Faudrait Leur Dire...
+ Il Mondo Dei Giovani Vol. 1
+ Im 3/4 Takt
+ Imelda May Live @ 12 Bar Club
+ Impact
+ In A Mirror Darkly
+ In A Word: Yes (1969 -    )
+ In Concert - Tel Aviv and Jerusalem - 1969
+ In Freundschaft · Traum-Formel · Amour
+ In Montreal
+ In Scarlet And Vile
+ In Soviet Russia, My Heart Breaks You
+ In The Realm Of Asgærd
+ In The Wake Of The Dark Earth
+ Introducing Danny Johnson
+ Istra Ti Materina: Part 1
+ It Found A Voice...
+ It Happened One Bite
+ It's A Man's World
+ Iter
+ Jag Offs / Four Letter Words Split
+ Jazz... Has... A Sense Of Humor
+ Johnny B. Goode
+ June 22 2008 - Washington, DC
+ Just Because I'm A Woman
+ Kad Bi' Bio Bijelo Dugme
+ Keel
+ Kenton In Hi Fi
+ Kick Ass !!
+ Klavierspielereien
+ Komsomol Scouts Space
+ Koncert
+ Kootch
+ Krakakot
+ L'Arc-en-Ciel Live 2014 At 国立競技場
+ L'Invitation
+ La Fete A Manu
+ La Torre Di Babele
+ Lady
+ Laid Insignificant
+ Layering Errors LP
+ Leben Ist
+ Legends Of Rock, Vol. 2, Rare Items
+ Les Merveilleux Avantages De La Stéréophonie
+ Let It Loose
+ Levande På G
+ Ley De Vida
+ Lifetime Woman
+ Light Years: The Very Best Of Electric Light Orchestra
+ Lipan's Kinetic
+ Little Flecks Of Foam Around Barking
+ Live Across Australia
+ Live At Sing Sing
+ Live At The Cimarron Ballroom
+ Live At The Pickwick!
+ Live At The Roxy Club
+ Live II
+ Live It Out
+ Live!
+ Live! In The Air Age
+ Lonesome Love
+ Los Rebeldes Del Rock
+ Lost Souls
+ Love Come Down: The Best Of Evelyn Champagne King
+ Love Me Crazy
+ Loz Netto's Bzar
+ Ma Liberté
+ Magic Lady
+ Mais... C'est Pas Dieu Possible !!!!!
+ Make Way For The Ocean Floor To Fall To The Surface
+ Mantovani Encores
+ Mariposa
+ Matthew Fisher
+ Mayfield: Remixed (The Curtis Mayfield Collection)
+ Mega
+ Meleg Az Éjszaka
+ Melodies Japonaises Pour Flute Et Harpe
+ Mental Blocks For All Ages
+ Mestrud
+ Miguel Bosé
+ Mildt Sagt
+ Milk Inc.
+ Mixed Roots
+ Modern Pop Percussion (L'Oiseau Sans Pieds)
+ More Out Of Today
+ Mr. Dabada
+ Mundus Subterraneus
+ Music And Gibran (A Contemporary Interpretation)
+ Music From The Godfather
+ My Time / Talkin' To Me / All I Wanna Know
+ Myst III: Exile (The Soundtrack)
+ Neon Music
+ New Solos By An Old Master
+ New Wild Everywhere
+ Nightfall
+ No Pressure
+ Nonostante Tutto
+ Northward
+ Not Trendy
+ Od Neba Do Neba
+ Odz Manouk
+ Of Myths And Legends
+ Ominous Black
+ One By One 
+ Our Blue Side
+ Owl Hours
+ Oxygene (The Complete Oxygene)
+ Pachanga Cha - Cha - Cha Anyone?
+ Pacheco Y Su Charanga
+ Pale
+ Paranoia Picknick
+ Paris Winter Spring
+ Party Hats
+ Passion Selon Saint Marc = Markuspassion BWV 247
+ Pavarotti & Friends For The Children Of Liberia
+ Penguins On The Moon
+ Pershing
+ Personennahverkehr
+ Pesadillas
+ Phaedra • Lachrymae • The Sword In The Stone • Night Mail • Sinfonietta
+ Pisces, Aquarius, Capricorn & Jones Ltd.
+ Planet Jive
+ Plays Solo Piano
+ Pourcel Digital
+ Power Punch!!!
+ Professional Dreamer
+ Psichedelica
+ Public Foot The Roman
+ Putrescent Infectious Rabidity
+ Quand On N'a Que L'amour
+ Quelques Notes Pour Anna
+ Rafiki (Remixes)
+ Rapid Transit
+ Raumpatrouille Orion
+ Raw Nerves
+ Recuerdo De Amor
+ Remix 12'
+ Renewable Destination
+ Resurrection
+ Reunion
+ Revelations And The Blues
+ Reverence
+ Rhoda Dakar Sings The Bodysnatchers 
+ Ride, Ride, Ride
+ Rivers Of Suggestion
+ Robots E.P.
+ Rock Of Ages
+ Rock Party/Smoke On The Water
+ Rockfish Crossing
+ Roger 
+ Romeo And Juliet
+ Roolettes
+ Rubbin' Me The Right Way
+ Samba Demais
+ Sange Fra Kælderen
+ Saturday Night / Sunday Night At The Blackhawk, San Francisco
+ Savoir Aimer
+ Scheherazade / Capriccio Espagnol / Flight Of The Bumblebee
+ Seeing And Doing.
+ Set Ya Free
+ Shine
+ Shlap
+ Sings The Songs Of Dallas Frazier
+ Slaughterhouse Invitation
+ Sleep
+ Soul On Board
+ South Pacific
+ Space Night Vol. VIII
+ Spiral Staircase
+ Spirits Having Flown
+ Spiritual Gospel
+ Spundae Presents Interpretations II
+ Spy.der Mix
+ Stand Up Straight
+ Starlight
+ Starring In...Standing In A Monkey Sea
+ Still At Arms Length
+ Stranger Songs
+ Strawberry Music Sampler No.1
+ Street Sense
+ Suavemente
+ Subterranean Hitz Vol. I
+ Summary Execution
+ Summer Breeze
+ Suomi 50 - Runoja Ja Lauluja
+ Sweatin' To The Oldies: The Vandals Live
+ Symphonies 1&8
+ Szerencsejáték
+ Tainted Angel
+ Take Cover
+ Talkin' About My Time
+ Tant Pis Pour Eux ! 
+ Taste Of The Young Heart
+ Teil 1
+ Texas Sugar / Strat Magik
+ The 50th Anniversary Collection
+ The Abyss
+ The Alan Davie Music Workshop 005
+ The Awakening
+ The BBC Tapes - Volume IV - In Concert 1975
+ The Best Of The EMI Years
+ The Chess Box
+ The Coming Atlantis
+ The Curse
+ The Emigrants
+ The Essential Billie Holiday (Carnegie Hall Concert Recorded Live)
+ The Eternal Quest
+ The Fire Below
+ The Friends Of Mr. Cairo
+ The Golden Hits Of
+ The Golden Orpheus Festival 84
+ The Hague '76
+ The Inner Galactic Fusion Experience
+ The Japan Syndrome
+ The King Tito Puente / El Rey Tito Puente
+ The Lone Descent
+ The Music Of The Grand Canyon
+ The Nearness Of You
+ The Need To Fly
+ The Notorious Cherry Bombs
+ The Original Rudolph The Red-Nosed Reindeer And Other Children's Christmas Favorites
+ The Other Side
+ The Outsider
+ The Pagan Cinema
+ The Pale Haunt Departure
+ The Phoenix
+ The Polka Dot Bear - The Story Of Creation
+ The Power Of Shower
+ The Quintessential Billie Holiday, Volume IV, 1937
+ The Rhythm
+ The Rules Of Dada
+ The Time Machine Tour
+ The Town Where a Star Falls
+ The Very Best Of Johnnie Taylor
+ The Way
+ The Way It Is
+ The World Of Donovan
+ Theodorakis Dirige Theodorakis, Vol 2
+ This Time Tomorrow
+ Through The Blinds
+ Time II
+ Time Trouble And Money (Live At The 100 Club)
+ Toivon
+ Tokyo Cries
+ Too Much
+ Trav'lin' Light
+ Trials & Errors
+ Turakaisten Paratiisi
+ Twilight Of Legends
+ Ultraviolence
+ Under The Arch
+ Under The Pavement - The Beach
+ Unforgettable / Pretend
+ VI
+ Vandaag Of Morgen
+ Vitusti Kuolemaa...
+ Volume - The Best Of
+ Volume Two: Solo Acoustic Guitar
+ Von Allen Gedanken Schätze Ich Doch Am Meisten Die Interessanten
+ Wake Up
+ Water
+ Waves
+ Way To Normal
+ Whoop 'Em Up Cindy
+ Wildberry Shake!
+ Wings Of Change
+ Words, Music, Laughter And Tears
+ Works (1968 - 2005)
+ Worst Case Scenario
+ Years Not Living
+ You Give Jews A Bad Name
+ You Send Me
+ Your Body Is An Outlaw
+ Znaeš Kolku Vredam
+ Zondag In 't Zuiden
+ Zoopsia
+ Zwischen Weitergehen Und Untergehen
+ ¡Ay, Caridad!
+ Én Megálmodtalak
+ Άσε Με Φίλε Να Μεθύσω
+ Αμύνομαι 
+ Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3
+ Είμαι Το Σήμερα Κι Είσαι Το Χθες
+ Η Αγάπη Θα Λάμψει
+ Η Καρδιά Με Πηγαίνει Εμένα
+ Ξανθιά Γυναίκα
+ Προδομένος Λαός
+ Το Τραγούδι Του Νεκρού Αδελφού - Λιποτάκτες
+ Φωτιά Στα Σαββατόβραδα (1982 - 1992: Δέκα Χρόνια Τραγούδι)
+ В Танцевальных Ритмах
+ Вања Радоњић
+ Голос И Ночь (I)
+ Королева Зимы
+ Лунная Рапсодия
+ Народни Бисери
+ Поет Петр Лещенко
+ Пушка
+ Сторона От
+ Хроника Парнишки С Гомельских Улиц
+ 盡在不言中
+(493 rows)
+
+                 titulo_disco                 | pais_edicion | año_edicion 
+----------------------------------------------+--------------+-------------
+ I'm Alright / So Near And Yet So Far         | US           |           0
+ Legends Of Rock, Vol. 2, Rare Items          | Germany      |        1974
+ Old Fashioned Feeling                        | Netherlands  |        1972
+ Playmobil 7 EP                               | Netherlands  |        2009
+ Sound Of Speed Circles Vol.1                 | Japan        |           0
+ The New Star Of The Italian Radio-Television | Australia    |        1961
+ Way To Normal                                | US           |        2008
+ Your Sweet Love / Just As Much As Ever       | Australia    |        1959
+(8 rows)
+
+ titulo | duracion_total 
+--------+----------------
+ (Void) | 
+(1 row)
+
+                titulo                 |           nombre            
+---------------------------------------+-----------------------------
+ Calcutta!                             | Lawrence Welk
+ Demo 2009                             | Sex Prisoner
+ Drum Tango                            | Mort Garson & His Orchestra
+ Home To You                           | Tortured Soul
+ Kootch                                | Danny Kortchmar
+ Mais... C'est Pas Dieu Possible !!!!! | Denis Wetterwald
+ Rubbin' Me The Right Way              | Tim Karr
+ Spundae Presents Interpretations II   | Cass Cutbush
+ The Town Where a Star Falls           | Krzysztof Ścierański
+ The World Of Donovan                  | Donovan
+ Tonight Or Never                      | Elvis Presley
+ VI                                    | Circle Jerks
+ Way To Normal                         | Ben Folds
+(13 rows)
+
+                                      titulo                                       | año_publicacion | año_edicion |     pais     | formato | año_disco 
+-----------------------------------------------------------------------------------+-----------------+-------------+--------------+---------+-----------
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |        1972 | France       | Vinyl   |      1972
+ Die Schöne Müllerin                                                               |            1972 |        1972 | Germany      | Vinyl   |      1972
+ Ma Liberté                                                                        |            1972 |        1972 | Germany      | Vinyl   |      1972
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |        1972 | Germany      | Vinyl   |      1972
+ Will The Circe Be Unbroken                                                        |            1972 |        1972 | Jamaica      | Vinyl   |      1972
+ Otello Highlights                                                                 |            1972 |        1961 | UK           | Vinyl   |      1972
+ The World Of Donovan                                                              |            1972 |        1969 | UK           | Vinyl   |      1972
+ Theodorakis Dirige Theodorakis, Vol 2                                             |            1972 |           0 | France       | Vinyl   |      1972
+ Die Schöne Müllerin                                                               |            1972 |           0 | Germany      | Vinyl   |      1972
+ Ma Liberté                                                                        |            1972 |           0 | Germany      | Vinyl   |      1972
+ Live At Sing Sing                                                                 |            1972 |           0 | US           | Vinyl   |      1972
+ Home                                                                              |            1972 |        2019 | US           | Vinyl   |      1972
+ Best Of Me                                                                        |            1972 |        1999 | Europe       | CD      |      1972
+ Rockfish Crossing                                                                 |            1972 |        1972 | Canada       | Vinyl   |      1972
+ Music From The Godfather                                                          |            1972 |        1972 | France       | Vinyl   |      1972
+ The World Of Donovan                                                              |            1972 |        1972 | Netherlands  | Vinyl   |      1972
+ Home                                                                              |            1972 |        1972 | UK           | Vinyl   |      1972
+ Lady Day And John Coltrane                                                        |            1972 |        1972 | UK           | Vinyl   |      1972
+ Music From The Godfather                                                          |            1972 |        1972 | UK           | Vinyl   |      1972
+ Best Of Me                                                                        |            1972 |        1972 | US           | Vinyl   |      1972
+ Lady Day And John Coltrane                                                        |            1972 |        1972 | US           | Vinyl   |      1972
+ Live At Sing Sing                                                                 |            1972 |        1972 | US           | Vinyl   |      1972
+ Music From The Godfather                                                          |            1972 |        1972 | US           | Vinyl   |      1972
+ Otello Highlights                                                                 |            1972 |        1972 | US           | Vinyl   |      1972
+ Rockfish Crossing                                                                 |            1972 |        1972 | US           | Vinyl   |      1972
+ Under The Arch                                                                    |            1972 |        1972 | US           | Vinyl   |      1972
+ Los Rebeldes Del Rock                                                             |            1971 |        1960 | Mexico       | Vinyl   |      1971
+ Obećanje / Klik-Klak                                                              |            1971 |        1971 | Yugoslavia   | Vinyl   |      1971
+ And That's A Fact With My Hand Up!                                                |            1971 |        1971 | US           | Vinyl   |      1971
+ Blue Moon Of Kentucky                                                             |            1971 |        1954 | US           | Vinyl   |      1971
+ And That's A Fact With My Hand Up!                                                |            1971 |        1986 | US           | Vinyl   |      1971
+ Blue Moon Of Kentucky                                                             |            1971 |        1954 | US           | Shellac |      1971
+ Try A Little Tenderness / She Put The Hurt On Me                                  |            1971 |        1967 | France       | Vinyl   |      1971
+ Try A Little Tenderness / She Put The Hurt On Me                                  |            1971 |        1971 | France       | Vinyl   |      1971
+ Los Rebeldes Del Rock                                                             |            1971 |        1971 | Mexico       | Vinyl   |      1971
+ Blue Moon Of Kentucky                                                             |            1971 |        1971 | US           | Vinyl   |      1971
+ Funky Chicken                                                                     |            1970 |        2023 | USA & Canada | Vinyl   |      1970
+ Home To You                                                                       |            1970 |        1999 | US           | CD      |      1970
+ Home To You                                                                       |            1970 |        2006 | Europe       | CD      |      1970
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        1961 | US           | Vinyl   |      1970
+ I Can't Let Go Of Your Love                                                       |            1970 |        1970 | Australia    | Vinyl   |      1970
+ Rock And Roll Madonna                                                             |            1970 |        1970 | Belgium      | Vinyl   |      1970
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |            1970 |        1970 | Canada       | Vinyl   |      1970
+ Rock And Roll Madonna                                                             |            1970 |        1970 | Germany      | Vinyl   |      1970
+ Old Fashioned Feeling                                                             |            1970 |        1970 | Japan        | Vinyl   |      1970
+ Funky Chicken                                                                     |            1970 |        1970 | UK           | Vinyl   |      1970
+ Rock And Roll Madonna                                                             |            1970 |        1970 | UK           | Vinyl   |      1970
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        1970 | US           | Vinyl   |      1970
+ Bridge Over Troubled Water / Get Ready                                            |            1970 |        1970 | US           | Vinyl   |      1970
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |            1970 |        1970 | US           | Vinyl   |      1970
+ Funky Chicken                                                                     |            1970 |        1970 | US           | Vinyl   |      1970
+ Gold                                                                              |            1970 |        1970 | US           | Vinyl   |      1970
+ Home To You                                                                       |            1970 |        1970 | US           | Vinyl   |      1970
+ The Next Time I'm In Town                                                         |            1970 |        1970 | US           | Vinyl   |      1970
+ Water                                                                             |            1970 |        1970 | US           | Vinyl   |      1970
+ Old Fashioned Feeling                                                             |            1970 |        1972 | Netherlands  | Vinyl   |      1970
+ I Can't Let Go Of Your Love                                                       |            1970 |        1974 | UK           | Vinyl   |      1970
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Europe       | Vinyl   |      1970
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Norway       | Vinyl   |      1970
+ The Next Time I'm In Town                                                         |            1970 |        1991 | Spain        | Vinyl   |      1970
+ Water                                                                             |            1970 |        1993 | UK           | Vinyl   |      1970
+ Funky Chicken                                                                     |            1970 |        1995 | UK           | Vinyl   |      1970
+ Gold                                                                              |            1970 |        1996 | UK           | Vinyl   |      1970
+ Gold                                                                              |            1970 |        1997 | UK           | Vinyl   |      1970
+ Home To You                                                                       |            1970 |        2010 | UK           | Vinyl   |      1970
+ Water                                                                             |            1970 |        2013 | UK           | Vinyl   |      1970
+ Afternoon Of A Faun, Nocturnes, Jeux                                              |            1970 |        2018 | Germany      | Vinyl   |      1970
+(67 rows)
+
+                    nombre                    
+----------------------------------------------
+ Mondglanz
+ Ultra-Takkyu vs. Mijk-o-zilla
+ Beta 2 & Zero Tolerance
+ ZEV
+ Mr. Fingers
+ Scott Grooves
+ Stardelay
+ The Hacker
+ Malo Macht Musik.
+ Samoa Park
+ The Product (6)
+ 3 Chairs
+ Tigerskin
+ Colin Potter
+ Frankie Goes To Hollywood
+ Nena (20)
+ Was (Not Was)
+ Carola Pisaturo
+ Boards Of Canada
+ Antti Tuisku
+ Soul II Soul
+ Lamb
+ The Intelligent Jungalist
+ Michael Jackson
+ Ionic Vision
+ Kick-OH!
+ Biosphere
+ Fat Freddys Drop
+ Spectrasoul
+ The Winterbabies
+ Milan Knížák
+ The Opposites
+ The Buddy Odor Stop
+ No Assembly Required
+ Car Bomb
+ Doctor Rockit
+ Latidos
+ Alex Albrecht
+ Cazwell And Amanda Lepore
+ Wally Badarou
+ Chow Chow
+ Silent Witness
+ Geomatic
+ Stephen Mallinder
+ Broadcast
+ K-Psula
+ Thievery Corporation
+ ...And Oceans
+ D.H.S.S.
+ Alex Calver
+ Dirty Bee
+ Loren X
+ Smyglyssna
+ Familjen
+ Foot and Mouth Disease
+ Shantel
+ NYs Finest
+ Altered Images
+ Benassi Bros.
+ Aquilia
+ Chris Energy
+ The Castle
+ RMS
+ Jouem
+ Skeletons (2)
+ Stylophonic
+ Advisory
+ Daryl Hall & John Oates
+ Desired State
+ Troublemakers
+ Stephen Brown
+ Alexander ONeal
+ Dieter Zobel
+ Fantasy UFO
+ Scotti Deep
+ Marcella Bella
+ Sungod
+ Figures In Distortion
+ Drumsound & Simon Bassline Smith
+ Teebee
+ Paul Blackout
+ Captain Sensible
+ Afrotrance
+ Glamor Cult
+ X-Form (2)
+ Sagat
+ Holger Czukay
+ Audio Maze
+ Johannes Heil
+ Hazel-OConnor
+ Mental Power
+ X Stress
+ Scorn
+ Jonny Chingas
+ Los Bonitos
+ Mark Richardson
+ Stu Allan
+ Wildside
+ PinkPantheress
+ Jay Lumen
+ Nikola Parov
+ 4D
+ The Fall
+ The Fall
+ The Fall
+ The Fall
+ Project X
+ Rhythm & Sound
+ Donna Summer
+ Simon
+ Hokus Pokus
+ Pimentola
+ Donkey
+ Mai Tai
+ Tieum
+ Angel Moraes
+ The Lady Supreme
+ Christoph De Babalon
+ Jamie XX
+ Mylo
+ The Echoing Green
+ Space
+ C.O.D.
+ Dard Å Ranj Från Det Hebbershålska Samfundet
+ UnderNova
+ Vince Watson
+ Tony Thomas
+ Jellybabe
+ Cher
+ Orfanado
+ Mirage (12)
+ Melted Cassettes
+ Jamie Jones (2)
+ Upper Astral
+ Sinéad OConnor
+ Loefah
+ Mr. Tophat
+ Quarion
+ SE62
+ Sade
+  Bo Bellow
+ Hum (8)
+ Parasense
+ Nemesi
+ Manu Dibango
+ Morenas
+ Factor Xs
+ Michael Jackson
+ Klax-On
+ Enjoy (6)
+ Discolazer
+ Lou & The Hollywood Bananas
+ Safire
+ White & Torch
+ Skydiver (2)
+ Nalin & Kane
+ Ben Sims
+ Garbage
+ The Rave Doctor
+ Evelyn King
+ Andrew McLauchlan
+ Loz Nettos Bzar
+ Brian Eno
+ Fee Romero
+ Magic Fly
+ Magica
+ DJ Cornelius
+ Dr. Manhattan
+ Stefan Gubatz
+ Who Is Behind The Mask?
+ Curtis Mayfield
+ Blank Banshee
+ Chemical Frequency
+ Goldfrapp
+ Judit Szűcs
+ Psychopoint
+ Gabrielle (8)
+ Milk Inc.
+ Angie Care
+ The Operator (2)
+ 4 II Soul
+ Alexander Goldscheider
+ Carlos Jean
+ Eleanore Mills
+ Lightwave
+ SL2
+ RLP
+ Jack Wall
+ The Boyz Dem From Booby Trap
+ Elementz Of Noize
+ The Assembly
+ Tina Moore
+ Alexi Delano
+ DJ Hazard
+ Carl Craig
+ Dinky
+ Mark Hawkins
+ Tank Of Danzig
+ Spirit
+ Duane & Co.
+ Mary Wilson
+ Akustik Research
+ Jean-Michel Jarre
+ Kate Carr
+ Gat Decor
+ Mijangos
+ Lucky & Easy
+ Robert Babicz
+ Philip Corner
+ Citizen Kain
+ Sulfurex
+ The Prodigy
+ Owiny Sigoma Band
+ Aqualung
+ Stylóo
+ Taylor Dayne
+ Piero Umiliani
+ Grace Jones
+ Peter Thomas Sound Orchestra
+ Relic (32)
+ Onkunde
+ Le Tigre
+ Caboladies
+ Faithless
+ Green & Waters
+ K. Barré
+ Africans With Mainframes
+ Da Rock
+ JB
+ Roger Troutman
+ Studio 1
+ Total Science
+ Swirl People
+ Maxim
+ Georgia Kelly
+ Christ.
+ Wizzard Of Wax
+ George Aaron
+ Shine (20)
+ El Hombre Trajeado
+ UKO
+ Brighter Death Now
+ Theo Parrish
+ Leslie Vaughn
+ Lee Jones
+ Aural Float
+ Cass Cutbush
+ DJ Spy.der
+ Revolting Cocks
+ The Wolfgang Press
+ Kyle Emerson
+ Model 500
+ Ame Lorain
+ Frank Eddie (2)
+ Brina (3)
+ The Salsoul Orchestra
+ Crystal Clear (2)
+ Crown Heights Affair
+ The Ill Saint
+ Summerbreeze
+ Tomaz vs. Filterheadz
+ Wham
+ Daniel Lui
+ Jonestown
+ AC Slater
+ Fastgraph
+ Neoton Família
+ Nova deViator
+ Blue Maxx
+ BeBe Winans
+ Captain Hollywood
+ Wildchild
+ Beastellabeast
+ Jon & Vangelis
+ Bit-Tuner
+ Depeche Mode
+ Nicholas Gunn
+ Underground Movement (2)
+ Starr Crew
+ DJ Shadow
+ Tuff Sherm
+ Wagon Christ
+ Dada Life
+ Pyramids
+ Watergate
+ Stanislav Tolkachev
+ Scorpyo
+ T.O.U.
+ Blair French
+ LÂme Immortelle
+ Sublevel
+ Glenn Morrison
+ Bong-Ra
+ Alden Tyrell
+ New Goblin
+ Marilyn Manson
+ Phill & Company
+ Victor Calderone
+ Third Head
+ T.Power
+ Steve Poindexter
+ Sub-Stance
+ S.P.Y. & Total Science
+ The Ganja Kru
+ Eric Prydz
+ WaWuWe
+ Moonbase
+ Smith & Mighty
+ Tileface
+ Katrina And The Waves
+ Taana Gardner
+ Ferry Corsten
+ Avalanche (8)
+ Helen Schneider
+ Ian Van Dahl
+ Voyce
+ Hans-Joachim Roedelius
+ 23 Skidoo
+ Larry Gus
+ Kim Wilde
+ Millie Jackson
+ Nicole Russo
+ Seduction
+ Sigma Fay
+ Marshall Jefferson
+ Die Form
+ Christos Lainas
+ Black Countess
+ Neu!
+(329 rows)
+
+                 titulo                 | duracion_total 
+----------------------------------------+----------------
+ (You Got) The Power Of Love            | 
+ A Child Of Our Time                    | 
+ Acrylic                                | 
+ All I Can Do                           | 00:01:32
+ All Over                               | 
+ Amazing Grace                          | 00:00:45
+ Andy Warhol                            | 00:00:04
+ Angel Of The Morning                   | 00:03:16
+ Annihilation                           | 
+ Aquarius                               | 00:00:30
+ Are You Coming Home Today?             | 00:01:56
+ Assassin Of Love                       | 00:00:33
+ Ay! Mulata                             | 
+ Bad Minded People                      | 
+ Be A Man                               | 00:00:00
+ Be Strong Now                          | 00:02:30
+ Bela Lugosi's Dead                     | 00:02:20
+ Black 'N Dangerous                     | 00:02:30
+ Blue Moon Of Kentucky                  | 
+ Blue Waters                            | 
+ Breakout                               | 00:00:52
+ Breathing                              | 
+ Brivido Caldo                          | 00:00:16
+ Brujerizmo                             | 00:01:40
+ Buddy Odor Is A Gas!                   | 00:01:42
+ Call My Name                           | 
+ Calor De Verano                        | 
+ Change Your Ways                       | 
+ Chinatown                              | 00:01:20
+ Comboio                                | 00:02:48
+ Cruiser's Creek                        | 
+ Dalla Pace Del Mare Lontano            | 00:00:00
+ De Dragul Tău                          | 00:01:28
+ Der Rosenkavalier (Highlights)         | 
+ Dieu M'a Donné La Foi                  | 00:01:50
+ Dizzy Heights                          | 00:00:34
+ Don't Forget To Remember               | 00:01:48
+ Drum Tango                             | 00:00:00
+ Durdurun Dünyayı                       | 00:00:51
+ Emptiness                              | 
+ En Annan Del Av Vår Värld              | 00:00:16
+ Everybody Needs Somebody To Love       | 00:01:54
+ Everywhere I Look                      | 
+ Evil Game                              | 00:02:27
+ Femmina                                | 00:01:12
+ Filled In                              | 
+ Finesse                                | 
+ Firing Line                            | 00:00:06
+ Flying Dreams                          | 00:01:18
+ Forever Strangers                      | 00:00:34
+ Free To Decide                         | 
+ Full Circle                            | 00:00:28
+ Georgy Girl                            | 00:00:40
+ Give It What You Got                   | 00:00:45
+ Give Me An Inch                        | 00:00:08
+ Gold                                   | 
+ Good Shape                             | 
+ Hairy Situation                        | 00:00:58
+ Here We Go Again                       | 00:02:18
+ Herederos De Un Imperio                | 
+ Hidden                                 | 00:01:30
+ Home                                   | 00:01:25
+ Hot Shot In Space                      | 00:00:20
+ Hot Stuff                              | 00:02:21
+ Hurry Sundown                          | 00:00:05
+ Hämärän Seppele                        | 00:00:33
+ I Am A Photograph                      | 00:00:50
+ I Love To Dance                        | 00:00:56
+ I Want To Spend My Lifetime Loving You | 00:01:22
+ If Ever I Would Leave You              | 00:00:06
+ If You Did Not Exist                   | 00:00:12
+ In The Bottle                          | 00:01:58
+ Interlude                              | 00:00:54
+ Iter                                   | 00:00:08
+ Jack Mix II                            | 00:01:42
+ Jailhouse                              | 
+ Jazzy Lady                             | 
+ Johnny B. Goode                        | 00:01:30
+ Jump In The River                      | 
+ Just For You                           | 00:03:20
+ Kad Bi' Bio Bijelo Dugme               | 
+ Kiss Of Life                           | 00:00:10
+ Krakakot                               | 00:02:12
+ L'Invitation                           | 00:00:43
+ La Torre Di Babele                     | 00:00:04
+ Lady Day And John Coltrane             | 
+ Laid Insignificant                     | 00:00:02
+ Lakini's Juice                         | 
+ Land Of 1,000 Dances                   | 
+ Lay Lady Lay                           | 00:00:40
+ Let It Loose                           | 00:01:38
+ Let's Forget                           | 
+ Light The Flame Of Love                | 00:01:09
+ Lost Souls                             | 
+ Love Me Crazy                          | 
+ Love's Old Sweet Song                  | 
+ Ma Liberté                             | 00:01:10
+ Macino Kolo                            | 
+ Meet Me At The Twistin' Place          | 00:01:30
+ Mind Over Manhattan                    | 
+ Mixed Roots                            | 00:02:48
+ More Out Of Today                      | 00:00:06
+ My Hair Is Nappy                       | 00:00:15
+ Nerorgasmo                             | 
+ Nobody But Me                          | 00:00:34
+ Not Guilty                             | 
+ Od Neba Do Neba                        | 
+ Of Myths And Legends                   | 00:00:57
+ Old Fashioned Feeling                  | 00:01:00
+ Omer I Merima                          | 
+ Penguins On The Moon                   | 00:01:36
+ Pensando En Ti                         | 
+ Planet Jive                            | 00:00:50
+ Pop Pop Pop-Pie                        | 00:00:12
+ Pull Up To The Bumper                  | 00:00:00
+ Quand On N'a Que L'amour               | 00:01:06
+ Quelques Notes Pour Anna               | 00:00:33
+ Reverence                              | 
+ Rock And Roll Madonna                  | 
+ Rock Party/Smoke On The Water          | 00:00:00
+ Romeo And Juliet                       | 00:01:03
+ Room 19 (Sha La La La Lee)             | 
+ Rotation (Spirit Remix)                | 
+ Rougher Yet                            | 
+ Rubbin' Me The Right Way               | 00:00:32
+ Savoir Aimer                           | 00:00:40
+ Setting Myself On Fire                 | 00:00:07
+ She's A Devil                          | 
+ Shout! Shout! (Knock Yourself Out)     | 00:01:28
+ Single Women                           | 00:01:02
+ Slaughterhouse Invitation              | 
+ Smile                                  | 
+ Soul On Board                          | 00:00:26
+ Spiral Staircase                       | 00:01:00
+ Stainless Steel Providers              | 00:01:28
+ Starlight                              | 00:00:04
+ Street Sense                           | 00:00:40
+ Suavemente                             | 00:00:54
+ Summer Breeze                          | 00:00:48
+ Summerbreeze                           | 00:00:45
+ Suspicious Minds                       | 00:00:44
+ Szerencsejáték                         | 
+ Talkin' About My Time                  | 
+ Talking In The Canteen                 | 
+ Tante Agathe                           | 00:01:58
+ Tell Me Who                            | 
+ Terra Firma                            | 
+ That Summer Feeling                    | 00:01:52
+ The Awakening                          | 00:00:38
+ The Cave                               | 
+ The Curse                              | 00:01:26
+ The Friends Of Mr. Cairo               | 00:00:18
+ The Nearness Of You                    | 00:01:32
+ The Next Time I'm In Town              | 00:01:24
+ The Other Side                         | 
+ They Call Me Scorpyo                   | 00:00:00
+ Things We Said Today                   | 
+ Touch The Moon                         | 00:00:54
+ Tralala                                | 00:00:46
+ Two Timin' Lady                        | 00:00:46
+ Under The Arch                         | 00:00:12
+ Waiting                                | 00:00:22
+ Waiting For The War                    | 
+ Wallet Woman                           | 00:01:18
+ Water                                  | 00:00:06
+ Wedding                                | 
+ Weil Dein Herz Dich Verrät             | 00:00:12
+ When Does The Weekend?                 | 00:00:32
+ White Turning Black                    | 00:00:48
+ Whoop 'Em Up Cindy                     | 
+ Wings Of Change                        | 
+ Within My Heart                        | 00:00:44
+ You Came                               | 00:00:29
+ You Don't Believe Me                   | 00:02:42
+ You Give Jews A Bad Name               | 00:00:42
+ You Send Me                            | 00:01:24
+ You're The Drug In My Life             | 00:02:30
+ Zero Ambition                          | 
+ Zondag In 't Zuiden                    | 00:00:20
+ Zoopsia                                | 00:00:38
+ Én Megálmodtalak                       | 
+ Άσε Με Φίλε Να Μεθύσω                  | 
+ Είμαι Το Σήμερα Κι Είσαι Το Χθες       | 
+ Ξανθιά Γυναίκα                         | 
+ Лунная Рапсодия                        | 00:00:33
+ Любопытство                            | 
+ Пушка                                  | 00:00:17
+ 盡在不言中                             | 00:00:50
+ 花葬                                   | 00:00:12
+(189 rows)
+
+ titulo_disco | año_edicion | pais | formato | año_edicion 
+--------------+-------------+------+---------+-------------
+(0 rows)
+
+ titulo_disco | año_edicion | pais | formato | año_edicion 
+--------------+-------------+------+---------+-------------
+(0 rows)
+
 ROLLBACK
