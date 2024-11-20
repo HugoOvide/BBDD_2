@@ -669,10 +669,973 @@ INSERT 0 360
  Your Sweet Love / Just As Much As Ever       | Australia    |        1959
 (8 rows)
 
- titulo | duracion_total 
---------+----------------
- (Void) | 
-(1 row)
+                                                           titulo                                                           | duracion_total 
+----------------------------------------------------------------------------------------------------------------------------+----------------
+ (Void)                                                                                                                     | 
+ (You Got) The Power Of Love                                                                                                | 
+ -In-A-Gadda-Da-Vida                                                                                                        | 00:03:00
+ ...Verendeten Blickes                                                                                                      | 
+ 10 Years - Live In Iruña                                                                                                   | 
+ 1000 Sünden...                                                                                                             | 00:03:02
+ 12 Supersuccessi                                                                                                           | 
+ 13 The Hard Way                                                                                                            | 
+ 1533 St. Philip Street                                                                                                     | 00:04:19
+ 1st Battle EP                                                                                                              | 
+ 20 Years: The Best of Jacob Moon                                                                                           | 
+ 4                                                                                                                          | 00:06:10
+ 5 Spot / Your World                                                                                                        | 
+ 50 Gates                                                                                                                   | 
+ 6 Track E.P.                                                                                                               | 00:02:58
+ 77 One More Time Volume ll                                                                                                 | 
+ 7th Symphony                                                                                                               | 00:05:51
+ A Brighter Day                                                                                                             | 00:01:31
+ A Charlie Brown Christmas                                                                                                  | 00:03:54
+ A Child Of Our Time                                                                                                        | 
+ A Conspiracy                                                                                                               | 00:02:58
+ A Little Bit Of Heaven / Little Star                                                                                       | 
+ A New Day                                                                                                                  | 
+ A New Dope                                                                                                                 | 00:04:26
+ A New High Fidelity Tripout                                                                                                | 00:05:45
+ A Romantic Dream                                                                                                           | 00:10:17
+ A Strange Day E.P                                                                                                          | 00:02:46
+ A Thousand Miles From Nowhere                                                                                              | 00:00:44
+ A. Decap - Sound Non-Stop Dancing Volume 7                                                                                 | 
+ ATXTA E.P.                                                                                                                 | 00:01:54
+ Absurd Reality / Flagging Water                                                                                            | 00:07:59
+ Abyssal                                                                                                                    | 
+ Acrylic                                                                                                                    | 
+ Adult Crash                                                                                                                | 00:05:44
+ Affair                                                                                                                     | 00:00:30
+ Afternoon Of A Faun, Nocturnes, Jeux                                                                                       | 00:00:38
+ Aggressor                                                                                                                  | 00:05:04
+ Album                                                                                                                      | 
+ Alibi                                                                                                                      | 00:04:47
+ Alive Again                                                                                                                | 
+ All I Can Do                                                                                                               | 00:05:21
+ All Over                                                                                                                   | 
+ All Star Remix Series                                                                                                      | 
+ All That We Let In                                                                                                         | 00:04:27
+ All We Have Is Now                                                                                                         | 
+ Alma Tädin Illuusio                                                                                                        | 00:05:51
+ Amazing Grace                                                                                                              | 00:07:43
+ American Classics For Loving And Dancing Pleasure                                                                          | 
+ Ancient History                                                                                                            | 00:18:27
+ And That's A Fact With My Hand Up!                                                                                         | 00:03:19
+ Andy Warhol                                                                                                                | 00:00:35
+ Angel Of The Morning                                                                                                       | 00:01:35
+ Angelica / Looking At Tomorrow                                                                                             | 00:01:05
+ Annihilation                                                                                                               | 00:02:17
+ Another Riot II                                                                                                            | 
+ Anyplace, Anywhere, Anytime                                                                                                | 00:01:41
+ Anything Can Happen...                                                                                                     | 00:01:45
+ Appendix F                                                                                                                 | 
+ Aquarius                                                                                                                   | 00:00:35
+ Are You Coming Home Today?                                                                                                 | 00:01:12
+ Arno En Concert (A La Française)                                                                                           | 00:07:01
+ As Slow As Apocalypse                                                                                                      | 
+ Assassin Of Love                                                                                                           | 00:01:01
+ Astrology For Young Lovers                                                                                                 | 
+ Atlantti                                                                                                                   | 00:00:17
+ Attack                                                                                                                     | 00:04:00
+ Axis Mundi                                                                                                                 | 00:06:12
+ Ay! Mulata                                                                                                                 | 
+ Babylon By Bus                                                                                                             | 00:04:15
+ Back To Life                                                                                                               | 
+ Back To The Drawing Room                                                                                                   | 
+ Backspace Unwind                                                                                                           | 00:03:25
+ Bad Minded People                                                                                                          | 
+ Ballin’ Boy                                                                                                                | 00:02:30
+ Balocchi E Profumi / Cara Piccina                                                                                          | 
+ Banana Water / Double Shot                                                                                                 | 
+ Barehedd One / Higher                                                                                                      | 
+ Be A Man                                                                                                                   | 00:05:59
+ Be Strong Now                                                                                                              | 00:02:55
+ Beechwood 4-5789 / Someday, Someway                                                                                        | 00:00:42
+ Beggars' Hill                                                                                                              | 00:06:22
+ Behind The Magnolia Curtain / Blow Your Top                                                                                | 
+ Bela Lugosi's Dead                                                                                                         | 00:01:07
+ Believe In Me / Don't Rush                                                                                                 | 
+ Best Of Me                                                                                                                 | 00:08:58
+ Big Picture                                                                                                                | 
+ Bigger Than Jesus                                                                                                          | 00:08:34
+ Billie Jean / Don't Stop 'Til You Get Enough / Wanna Be Startin' Something                                                 | 00:01:01
+ Birds Fly South                                                                                                            | 00:04:00
+ Birds Of A Feather / It Got Away                                                                                           | 00:01:10
+ Bitter Isolation                                                                                                           | 00:07:38
+ Black 'N Dangerous                                                                                                         | 00:07:01
+ Black Eddy Swag / Hey C'mon                                                                                                | 00:00:48
+ Black Joe Lewis & Cool Breeze                                                                                              | 
+ Black Mesa                                                                                                                 | 00:01:15
+ Blackbird                                                                                                                  | 
+ Bloodrain / Someday Soon                                                                                                   | 
+ Blue Moon Of Kentucky                                                                                                      | 
+ Blue Waters                                                                                                                | 
+ Bluegrass Hootenanny                                                                                                       | 
+ Blues Expert (Disc De Ascultare Și De Înveselire)                                                                          | 00:08:06
+ Blues With Big Bill Broonzy · Sonny Terry · Brownie McGhee                                                                 | 00:06:36
+ Blumenwalzer Aus Der Nussknacker-Suite / Walzer Aus Der Serenade Für Streichorchester / Walzer Aus Dem Ballett Dornröschen | 
+ Bolomakoté                                                                                                                 | 00:04:28
+ Boot Scootin' Boogie / Lost And Found                                                                                      | 00:01:03
+ Bossa Nova Suicide / Tidal Wave                                                                                            | 
+ Breakout                                                                                                                   | 00:05:40
+ Breathing                                                                                                                  | 
+ Bridge Over Troubled Water / Get Ready                                                                                     | 00:00:27
+ Brivido Caldo                                                                                                              | 00:05:13
+ Broken Music                                                                                                               | 00:03:03
+ Broodje Bakpao                                                                                                             | 00:00:15
+ Brown Flag                                                                                                                 | 00:03:44
+ Brujerizmo                                                                                                                 | 00:08:39
+ Buddy Odor Is A Gas!                                                                                                       | 00:07:36
+ Build Your Own EP                                                                                                          | 
+ Burst                                                                                                                      | 
+ Bury Me At Sea                                                                                                             | 
+ Business Free Music                                                                                                        | 
+ Buzzöff!                                                                                                                   | 
+ Café De Flore                                                                                                              | 
+ Calcutta!                                                                                                                  | 00:03:43
+ Call My Name                                                                                                               | 
+ Calor De Verano                                                                                                            | 
+ Campfire Stories                                                                                                           | 
+ Can't Get Enough                                                                                                           | 00:03:43
+ Can't Take It With You / Sail Away                                                                                         | 00:01:07
+ Candlelight                                                                                                                | 
+ Cantos De Venezuela                                                                                                        | 
+ Caravan Of Love                                                                                                            | 00:01:26
+ Caribbean Dandee                                                                                                           | 00:08:49
+ Category 6                                                                                                                 | 00:05:59
+ Cazwell And Amanda                                                                                                         | 00:03:27
+ Chamber Music For Flute (Complete)                                                                                         | 
+ Change Your Ways                                                                                                           | 
+ Chants D'Auvergne Vol. 1 • Folge 1                                                                                         | 00:05:53
+ Charlie Rich Sings Country & Western                                                                                       | 00:05:58
+ Cheer Up                                                                                                                   | 
+ Chief Inspector / Novela Das Nove                                                                                          | 00:01:15
+ Chinatown                                                                                                                  | 00:03:37
+ Clarinet Concerto / Sinfonia Concertante                                                                                   | 
+ Classics In Jazz                                                                                                           | 
+ Cleanhead Blues                                                                                                            | 00:04:46
+ Closer                                                                                                                     | 
+ Colours And Lines                                                                                                          | 00:03:00
+ Comboio                                                                                                                    | 00:07:03
+ Concert In Japan                                                                                                           | 00:03:14
+ Concerto De Violoncelle                                                                                                    | 
+ Concerto No. 20 For Piano And Orchestra In D Minor, KV 466 / Sonata In C Major, KV 330                                     | 
+ Consuming The Rests                                                                                                        | 
+ Contact / Descent                                                                                                          | 
+ Control Agents                                                                                                             | 00:02:45
+ Cool Down                                                                                                                  | 00:00:56
+ Cradle Of Life                                                                                                             | 00:09:00
+ Crashed Out, Wasted Useless, Hated                                                                                         | 
+ Crayon                                                                                                                     | 00:09:31
+ Crazy E.P.                                                                                                                 | 00:02:01
+ Cruiser's Creek                                                                                                            | 
+ Cult Of Fear                                                                                                               | 00:05:30
+ Cultivateur, Maître-Chantre                                                                                                | 00:03:49
+ Cypher                                                                                                                     | 00:07:07
+ D.H.S.S. Bloo                                                                                                              | 00:00:28
+ Dahmer / Denak                                                                                                             | 00:02:38
+ Dalla Pace Del Mare Lontano                                                                                                | 00:00:00
+ Darker Circles                                                                                                             | 
+ De Dragul Tău                                                                                                              | 00:06:13
+ Deaf Wish                                                                                                                  | 
+ Dear Independence                                                                                                          | 00:08:21
+ Death Suits You                                                                                                            | 00:02:51
+ Deathkult Sutra                                                                                                            | 00:02:23
+ Deep / Last Jam                                                                                                            | 
+ Deep In Need / Bring Back The Love                                                                                         | 00:00:34
+ Definitive Perception                                                                                                      | 00:05:54
+ Demo 2009                                                                                                                  | 
+ Departures                                                                                                                 | 
+ Der Rosenkavalier (Highlights)                                                                                             | 
+ Deratizer                                                                                                                  | 00:07:36
+ Des Je T'aime                                                                                                              | 00:04:23
+ Det Snurrar I Min Skalle                                                                                                   | 
+ Developing Spaces.                                                                                                         | 00:00:29
+ Die Gefühle Haben Schweigepflicht                                                                                          | 
+ Die Neun Sinfonien                                                                                                         | 
+ Die Schöne Müllerin                                                                                                        | 
+ Dieu M'a Donné La Foi                                                                                                      | 00:01:00
+ Different Times - Lou Reed In The 70s                                                                                      | 00:09:37
+ Dirk Wears White Sox                                                                                                       | 
+ Disco Pirata                                                                                                               | 00:03:45
+ Discovered Again!                                                                                                          | 
+ Disko Partizani                                                                                                            | 00:06:24
+ Disque D'or De Julien Clerc                                                                                                | 00:06:56
+ Dizzy Heights                                                                                                              | 00:06:54
+ Do You Feel Me?                                                                                                            | 00:02:26
+ Do You Want                                                                                                                | 00:01:00
+ Don't Forget To Remember                                                                                                   | 00:00:42
+ Don't Talk To Me                                                                                                           | 
+ Don't Touch Too Much                                                                                                       | 00:00:50
+ Doomsday Hour                                                                                                              | 
+ Down In Tennessee / (Let's Do It Again) Anniversary Twist                                                                  | 00:00:45
+ Dreams On Long Play                                                                                                        | 00:05:42
+ Dreamstate                                                                                                                 | 00:00:30
+ Drum Tango                                                                                                                 | 00:00:58
+ Drum Waves EP                                                                                                              | 00:03:13
+ Du Rhum, Des Femmes                                                                                                        | 00:01:02
+ Dulac                                                                                                                      | 00:01:52
+ Durdurun Dünyayı                                                                                                           | 00:00:33
+ Early Strawbs                                                                                                              | 00:11:26
+ Eden's Fire                                                                                                                | 
+ Eden's Island (The Music Of An Enchanted Isle)                                                                             | 
+ Eine Kleine Nachtmusik - Die Moldau - Les Préludes - Capriccio Italien                                                     | 
+ Ejaculate Upon The Holy Qur'an                                                                                             | 00:08:14
+ El Duende En Madrid                                                                                                        | 00:03:37
+ El Le Visage Qui Voyage / Même L'amour                                                                                     | 00:00:20
+ Elaine Sings Wilder                                                                                                        | 
+ Elvis Has Left The Building                                                                                                | 00:02:28
+ Emptiness                                                                                                                  | 
+ En Annan Del Av Vår Värld                                                                                                  | 00:00:44
+ En Todo Estaré                                                                                                             | 
+ Endnote                                                                                                                    | 
+ Energy Trax                                                                                                                | 00:01:32
+ Ensemble Folklorique Timișul                                                                                               | 00:06:35
+ Episodes 4/8 - Reflections On The Rise                                                                                     | 
+ Everybody Dance With Your Steering Wheel                                                                                   | 00:04:35
+ Everybody In Love                                                                                                          | 
+ Everybody Needs Somebody To Love                                                                                           | 00:00:57
+ Everynight                                                                                                                 | 00:01:19
+ Everywhere I Look                                                                                                          | 
+ Evil Game                                                                                                                  | 00:04:59
+ Ex-Cult                                                                                                                    | 
+ Expansion / Dance The Dream (Remix)                                                                                        | 
+ Express Way                                                                                                                | 
+ Extensive Perception E.P.                                                                                                  | 00:00:57
+ Eye For An Eye                                                                                                             | 
+ Fabrizio De André                                                                                                          | 00:04:26
+ Fake                                                                                                                       | 00:01:36
+ Falscher Hase                                                                                                              | 
+ Fantasy                                                                                                                    | 00:01:05
+ Farmer John / Big Boy Pete                                                                                                 | 00:00:43
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl                                          | 00:05:40
+ Fathoms                                                                                                                    | 
+ Feels So Good                                                                                                              | 00:02:56
+ Femmina                                                                                                                    | 00:05:54
+ Festival Of Fools                                                                                                          | 00:02:14
+ Figures                                                                                                                    | 
+ Filled In                                                                                                                  | 
+ Finesse                                                                                                                    | 
+ Fire (Burning) / Breakdown (2009 Re-Lick)                                                                                  | 
+ Firing Line                                                                                                                | 00:00:51
+ Fish Tales / Swarthy Songs For Swabs                                                                                       | 00:05:41
+ Fkn Mtlhds / Legions Of The Dead                                                                                           | 00:01:06
+ Fliptop World (Remix) / An (Abridged) Taste Of Humbug                                                                      | 
+ Flowin' In File                                                                                                            | 00:02:41
+ Flying Dreams                                                                                                              | 00:01:55
+ For Mama                                                                                                                   | 00:05:38
+ For Pete's Sake                                                                                                            | 00:07:20
+ For The Rest Of Us                                                                                                         | 00:04:26
+ Forever Strangers                                                                                                          | 00:01:32
+ Form                                                                                                                       | 00:02:33
+ Four Chapters Of Satanic Evil                                                                                              | 00:03:34
+ Four Songs                                                                                                                 | 
+ Frankly Speaking / Executioner Style                                                                                       | 00:02:02
+ Free To Decide                                                                                                             | 
+ From Paris To Kabul                                                                                                        | 
+ From Russia With Love (Original Motion Picture Soundtrack)                                                                 | 
+ From These Ashes..                                                                                                         | 00:00:45
+ Frozen Chambers                                                                                                            | 00:06:25
+ Fuck The 80's...                                                                                                           | 
+ Fuk Dat                                                                                                                    | 
+ Full Circle                                                                                                                | 00:03:40
+ Full Monty Boyz / The Way Of Life                                                                                          | 
+ Funky Chicken                                                                                                              | 00:04:06
+ G.C. Cameron                                                                                                               | 00:04:54
+ G.O.D. EP - The Remixes                                                                                                    | 
+ Gagaku & Beyond                                                                                                            | 00:02:24
+ Georgy Girl                                                                                                                | 00:00:29
+ Get 'Em Down                                                                                                               | 00:02:42
+ Get Lucky                                                                                                                  | 00:03:55
+ Girl, Ich Brauch' Dich                                                                                                     | 00:00:02
+ Give It What You Got                                                                                                       | 00:01:21
+ Give Me An Inch                                                                                                            | 00:00:23
+ Glean                                                                                                                      | 00:09:01
+ Glen Campbell Presents                                                                                                     | 00:03:50
+ Goin' To L.A.                                                                                                              | 
+ Gold                                                                                                                       | 
+ Golden Sounds                                                                                                              | 00:03:36
+ Goldfinger (Original Motion Picture Score)                                                                                 | 
+ Golpes Tocuyanos                                                                                                           | 
+ Good Shape                                                                                                                 | 
+ Goodnight Cleveland                                                                                                        | 
+ Google Me                                                                                                                  | 00:01:35
+ Got The Feeling                                                                                                            | 00:01:34
+ Governor                                                                                                                   | 00:04:11
+ Gracefully Chasing The Tail                                                                                                | 
+ Guerra Civil                                                                                                               | 
+ Guitar On The Wild Side / Meditation Of The Soul                                                                           | 00:01:08
+ Hairy Situation                                                                                                            | 00:01:28
+ Hand In Hand                                                                                                               | 00:00:58
+ Hapuslah Airmata Mu                                                                                                        | 00:06:14
+ Hard Trance EP Volume 5                                                                                                    | 
+ Hardcore Adrenaline                                                                                                        | 00:27:21
+ Hate Unit                                                                                                                  | 
+ Hear My Train A' Comin                                                                                                     | 01:00:54
+ Heartbeat (Be My Babe)                                                                                                     | 00:02:47
+ Heathers - Original Motion Picture Soundtrack                                                                              | 00:11:39
+ Heaven Knows                                                                                                               | 00:06:00
+ Heidenlarm                                                                                                                 | 
+ Heilt Nye Vei                                                                                                              | 00:07:33
+ Help!  (7 Song Radio Sampler)                                                                                              | 00:02:08
+ Her River Raves Recollections                                                                                              | 
+ Herbal Healing                                                                                                             | 
+ Here Comes That Sound EP                                                                                                   | 00:01:00
+ Here We Go Again                                                                                                           | 00:06:55
+ Herederos De Un Imperio                                                                                                    | 
+ Heterogenial                                                                                                               | 00:03:15
+ Hidden                                                                                                                     | 00:00:47
+ High Tension                                                                                                               | 00:07:36
+ Highlander / Spirit Of Darkness                                                                                            | 00:00:58
+ Hit Somebody! (The Hockey Song)                                                                                            | 00:00:41
+ Hit You                                                                                                                    | 00:00:12
+ Hokey Pokey                                                                                                                | 00:05:45
+ Hold Me Tight / You Don’t Know                                                                                             | 
+ Holst: The Planets, Op. 32                                                                                                 | 00:02:09
+ Home                                                                                                                       | 00:08:03
+ Home To You                                                                                                                | 
+ Hot 'N' Heavy | Live At The Ascension Loft                                                                                 | 00:01:44
+ Hot Shot In Space                                                                                                          | 00:02:26
+ Hot Stuff                                                                                                                  | 00:01:36
+ Hot! Hot!                                                                                                                  | 00:04:12
+ House Affair                                                                                                               | 
+ House It                                                                                                                   | 00:01:16
+ House Shoes & Street Corner Music Present: The Gift Vol. 5!                                                                | 
+ How Sweet It Is / Everybody Talking                                                                                        | 
+ Howard Carpendale - Die LP Zur Tournee                                                                                     | 00:08:21
+ Hurry Sundown                                                                                                              | 00:03:07
+ Hver Dag Er En Perfekt Dag                                                                                                 | 
+ Hypocrites & Parasites / Bon Scott Version                                                                                 | 
+ Hämärän Seppele                                                                                                            | 00:00:57
+ I Ain't Yer House-Nigger                                                                                                   | 
+ I Am A Dope Fiend                                                                                                          | 00:07:16
+ I Am A Photograph                                                                                                          | 00:04:38
+ I Am Forever                                                                                                               | 00:00:54
+ I Am Kloot                                                                                                                 | 00:06:50
+ I Can't Let Go Of Your Love                                                                                                | 
+ I Don't Like You                                                                                                           | 00:00:54
+ I Don't Wanna Go                                                                                                           | 
+ I Done Got Over                                                                                                            | 00:00:33
+ I Like It (I Like How You're Lov'in Me)                                                                                    | 00:00:53
+ I Love To Dance                                                                                                            | 00:03:05
+ I Met Her In Church / What Kind Of Spell                                                                                   | 00:01:26
+ I Want To Spend My Lifetime Loving You                                                                                     | 00:00:42
+ I Wish My Life Was Based On A True Story                                                                                   | 
+ I'd Die Without You                                                                                                        | 
+ I'd Like To Teach The World To Sing                                                                                        | 00:05:08
+ I'd Love You To Want Me / Me And You And A Dog Named Boo                                                                   | 00:00:59
+ I'll Find You                                                                                                              | 
+ I'm Alright / So Near And Yet So Far                                                                                       | 00:00:07
+ I'm Not So Lucky (Showcase)                                                                                                | 
+ I'm That Type Of Girl                                                                                                      | 00:02:44
+ II                                                                                                                         | 00:05:25
+ Ich Fühl Mich Wohl In Deinem Leben                                                                                         | 00:06:16
+ If Ever I Would Leave You                                                                                                  | 00:04:25
+ If You Did Not Exist                                                                                                       | 00:01:53
+ If You're Into It, I'm Out Of It                                                                                           | 
+ Il Faudrait Leur Dire...                                                                                                   | 
+ Il Mondo Dei Giovani Vol. 1                                                                                                | 00:03:57
+ Im 3/4 Takt                                                                                                                | 
+ Imelda May Live @ 12 Bar Club                                                                                              | 00:04:01
+ Impact                                                                                                                     | 00:03:42
+ In A Mirror Darkly                                                                                                         | 00:03:09
+ In A Word: Yes (1969 -    )                                                                                                | 00:29:39
+ In Colour - Sampler                                                                                                        | 00:02:33
+ In Concert                                                                                                                 | 00:00:23
+ In Concert - Tel Aviv and Jerusalem - 1969                                                                                 | 
+ In Doubt '99                                                                                                               | 00:00:50
+ In Freundschaft · Traum-Formel · Amour                                                                                     | 00:03:57
+ In Montreal                                                                                                                | 00:03:53
+ In My Arms                                                                                                                 | 00:02:00
+ In Scarlet And Vile                                                                                                        | 00:05:40
+ In Soviet Russia, My Heart Breaks You                                                                                      | 00:04:35
+ In Space                                                                                                                   | 00:01:05
+ In The Bottle                                                                                                              | 00:01:41
+ In The Realm Of Asgærd                                                                                                     | 
+ In The Wake Of The Dark Earth                                                                                              | 
+ Incognita / Life Force                                                                                                     | 00:00:25
+ Indo-Jazz Fusions II                                                                                                       | 
+ Influenced Two                                                                                                             | 
+ Inner Space / Jack Off (Re-Worked)                                                                                         | 
+ Inside Your Brain                                                                                                          | 00:03:13
+ Insieme / Inch'Allah                                                                                                       | 00:01:20
+ Interlude                                                                                                                  | 00:02:13
+ Introducing Danny Johnson                                                                                                  | 00:04:43
+ Istra Ti Materina: Part 1                                                                                                  | 00:04:03
+ It Found A Voice...                                                                                                        | 
+ It Happened One Bite                                                                                                       | 00:06:07
+ It's A Man's World                                                                                                         | 00:04:48
+ Iter                                                                                                                       | 00:03:55
+ Ivy                                                                                                                        | 00:00:41
+ Jack Mix II                                                                                                                | 00:00:54
+ Jackin For Beats                                                                                                           | 
+ Jad Fair & The Pastels N°2                                                                                                 | 
+ Jag Offs / Four Letter Words Split                                                                                         | 
+ Jailhouse                                                                                                                  | 
+ Jazz-Liisa 2                                                                                                               | 00:00:47
+ Jazz... Has... A Sense Of Humor                                                                                            | 00:02:55
+ Jazzmasters 2- Eleusinian Secrets                                                                                          | 00:00:56
+ Jazzy Lady                                                                                                                 | 
+ Johnny B. Goode                                                                                                            | 00:03:29
+ Jones & Mizrahi Edits                                                                                                      | 00:00:29
+ Journey Universe                                                                                                           | 00:01:09
+ Judgement Time / Version                                                                                                   | 
+ Jump In The River                                                                                                          | 
+ June 22 2008 - Washington, DC                                                                                              | 
+ Jungle Infiltrator                                                                                                         | 
+ Just Because I'm A Woman                                                                                                   | 00:04:24
+ Just For You                                                                                                               | 00:01:20
+ KVK 200                                                                                                                    | 
+ Kad Bi' Bio Bijelo Dugme                                                                                                   | 
+ Kaikki Askeleet                                                                                                            | 00:00:47
+ Karasu                                                                                                                     | 00:00:50
+ Keel                                                                                                                       | 00:04:43
+ Keep All The Fires Burning Bright                                                                                          | 00:01:33
+ Kenton In Hi Fi                                                                                                            | 00:04:18
+ Kick Ass !!                                                                                                                | 
+ Kiev                                                                                                                       | 
+ Kilimandjaro / Les Trois Dernières Minutes                                                                                 | 
+ Kiss Of Life                                                                                                               | 00:01:18
+ Klavierspielereien                                                                                                         | 00:04:58
+ Knockin'                                                                                                                   | 00:01:53
+ Komsomol Scouts Space                                                                                                      | 00:03:21
+ Koncert                                                                                                                    | 
+ Kootch                                                                                                                     | 00:03:27
+ Krakakot                                                                                                                   | 00:04:55
+ L'Arc-en-Ciel Live 2014 At 国立競技場                                                                                      | 
+ L'Asteroide                                                                                                                | 
+ L'Invitation                                                                                                               | 00:04:42
+ La Fete A Manu                                                                                                             | 
+ La Luna                                                                                                                    | 00:01:33
+ La Musica Sube                                                                                                             | 00:02:27
+ La Noche Del Hawayano / Amanecer Guajiro                                                                                   | 
+ La Torre Di Babele                                                                                                         | 00:04:57
+ Lady                                                                                                                       | 
+ Lady Day And John Coltrane                                                                                                 | 
+ Lady In My Life                                                                                                            | 
+ Laid Insignificant                                                                                                         | 00:04:45
+ Lakini's Juice                                                                                                             | 
+ Land Of 1,000 Dances                                                                                                       | 
+ Last Train To Party                                                                                                        | 00:01:41
+ Lavatory                                                                                                                   | 00:02:00
+ Lay Lady Lay                                                                                                               | 00:01:19
+ Layering Errors LP                                                                                                         | 00:06:53
+ Leben Ist                                                                                                                  | 00:06:10
+ Legends Of Rock, Vol. 2, Rare Items                                                                                        | 00:10:02
+ Les Merveilleux Avantages De La Stéréophonie                                                                               | 00:08:27
+ Les Petites Rues De Singapour                                                                                              | 00:00:22
+ Let It Loose                                                                                                               | 00:05:22
+ Let Me Be The One                                                                                                          | 00:02:16
+ Let's Forget                                                                                                               | 
+ Let's Talk It Over / Love Attack                                                                                           | 00:01:14
+ Levande På G                                                                                                               | 00:04:36
+ Ley De Vida                                                                                                                | 
+ Liberation Day                                                                                                             | 00:00:59
+ Lifetime Woman                                                                                                             | 00:37:27
+ Light The Flame Of Love                                                                                                    | 00:00:55
+ Light Years: The Very Best Of Electric Light Orchestra                                                                     | 00:17:09
+ Lipan's Kinetic                                                                                                            | 00:07:03
+ Listen To Your Heart                                                                                                       | 00:01:11
+ Little City Woman / Lonesome                                                                                               | 
+ Little Flecks Of Foam Around Barking                                                                                       | 
+ Live Across Australia                                                                                                      | 
+ Live At Sing Sing                                                                                                          | 00:01:20
+ Live At The Cimarron Ballroom                                                                                              | 
+ Live At The Palace                                                                                                         | 00:00:59
+ Live At The Pickwick!                                                                                                      | 00:05:36
+ Live At The Roxy Club                                                                                                      | 00:03:37
+ Live II                                                                                                                    | 
+ Live It Out                                                                                                                | 00:05:54
+ Live Young Die Fast E.P.                                                                                                   | 
+ Live!                                                                                                                      | 00:03:04
+ Live! In The Air Age                                                                                                       | 00:04:17
+ Lonesome Love                                                                                                              | 00:06:03
+ Look At Me Now                                                                                                             | 00:00:57
+ Look So Fine                                                                                                               | 00:01:36
+ Los Rebeldes Del Rock                                                                                                      | 
+ Lost In Bass E.P.                                                                                                          | 
+ Lost Souls                                                                                                                 | 
+ Love Come Down: The Best Of Evelyn Champagne King                                                                          | 00:07:47
+ Love Me Crazy                                                                                                              | 
+ Love Story                                                                                                                 | 00:00:05
+ Love's Old Sweet Song                                                                                                      | 00:00:50
+ Loz Netto's Bzar                                                                                                           | 00:06:25
+ Lux                                                                                                                        | 00:01:22
+ Ma Liberté                                                                                                                 | 00:04:47
+ Macino Kolo                                                                                                                | 
+ Mad Gigolo                                                                                                                 | 00:01:07
+ Magic Fly                                                                                                                  | 00:02:55
+ Magic Lady                                                                                                                 | 00:04:09
+ Magica                                                                                                                     | 00:01:30
+ Mais... C'est Pas Dieu Possible !!!!!                                                                                      | 00:06:16
+ Make Me Fly                                                                                                                | 00:00:51
+ Make Way For The Ocean Floor To Fall To The Surface                                                                        | 
+ Manhattan Trax Vol 3 EP                                                                                                    | 
+ Mantovani Encores                                                                                                          | 00:04:55
+ Marathon / Burnout                                                                                                         | 
+ Mariposa                                                                                                                   | 00:06:14
+ Mask 4                                                                                                                     | 
+ Matthew Fisher                                                                                                             | 
+ Mayfield: Remixed (The Curtis Mayfield Collection)                                                                         | 00:04:44
+ Meet Me At The Twistin' Place                                                                                              | 00:01:13
+ Mega                                                                                                                       | 00:05:39
+ Mega Byte / Death Trap                                                                                                     | 
+ Melancholy Sky                                                                                                             | 00:01:36
+ Meleg Az Éjszaka                                                                                                           | 00:06:14
+ Melodies Japonaises Pour Flute Et Harpe                                                                                    | 00:05:08
+ Memories By The Score / Scorer                                                                                             | 
+ Mental Blocks For All Ages                                                                                                 | 
+ Mestrud                                                                                                                    | 00:02:47
+ Micropoint vs. Psychiatrik                                                                                                 | 00:01:50
+ Miguel Bosé                                                                                                                | 00:03:39
+ Mildt Sagt                                                                                                                 | 
+ Milk Inc.                                                                                                                  | 00:04:37
+ Mind                                                                                                                       | 00:01:15
+ Mind Over Manhattan                                                                                                        | 
+ Miracles Take Time                                                                                                         | 00:01:25
+ Mixed Roots                                                                                                                | 00:04:07
+ Mluví K Vám Robot                                                                                                          | 00:01:07
+ Modern Pop Percussion (L'Oiseau Sans Pieds)                                                                                | 
+ More Out Of Today                                                                                                          | 00:07:44
+ Mount Zion                                                                                                                 | 00:00:28
+ Movie Quotes                                                                                                               | 00:00:11
+ Mr. Dabada                                                                                                                 | 00:01:55
+ Mr. Right                                                                                                                  | 00:01:46
+ Mundus Subterraneus                                                                                                        | 00:06:42
+ Music And Gibran (A Contemporary Interpretation)                                                                           | 00:02:52
+ Music From The Godfather                                                                                                   | 
+ My Brain                                                                                                                   | 00:01:09
+ My Hair Is Nappy                                                                                                           | 00:00:25
+ My Time / Talkin' To Me / All I Wanna Know                                                                                 | 00:03:02
+ My Will To Survive                                                                                                         | 
+ Myst III: Exile (The Soundtrack)                                                                                           | 00:12:57
+ Mystical Minds                                                                                                             | 
+ Médias Folies                                                                                                              | 
+ Neon / Instinct                                                                                                            | 00:01:20
+ Neon Music                                                                                                                 | 
+ Nerorgasmo                                                                                                                 | 
+ Never                                                                                                                      | 00:01:43
+ Never Gonna Let You Go                                                                                                     | 
+ New Solos By An Old Master                                                                                                 | 
+ New Wild Everywhere                                                                                                        | 00:09:38
+ Nightfall                                                                                                                  | 
+ Niiro / Koushoku                                                                                                           | 00:00:37
+ No More Games EP                                                                                                           | 
+ No More Words                                                                                                              | 
+ No Pressure                                                                                                                | 
+ No Tears To Cry / Wake Up The Nation                                                                                       | 00:00:57
+ Nobody But Me                                                                                                              | 00:00:28
+ Nonostante Tutto                                                                                                           | 00:07:33
+ Nordindische Ragas - Live                                                                                                  | 00:01:00
+ Northward                                                                                                                  | 00:06:03
+ Nostalgia EP                                                                                                               | 
+ Not Guilty                                                                                                                 | 
+ Not Trendy                                                                                                                 | 
+ Obećanje / Klik-Klak                                                                                                       | 
+ Od Neba Do Neba                                                                                                            | 
+ Odz Manouk                                                                                                                 | 
+ Of Myths And Legends                                                                                                       | 00:03:30
+ Oh How Happy                                                                                                               | 00:00:30
+ Old Fashioned Feeling                                                                                                      | 00:01:12
+ Old Fashioned Love / Dance Wit Me                                                                                          | 00:00:31
+ Omer I Merima                                                                                                              | 
+ Ominous Black                                                                                                              | 00:06:07
+ On Edge / Sanctified                                                                                                       | 
+ On S'en Fout... Nous On S'aime (Bande Originale Du Film)                                                                   | 00:00:41
+ On The Attack                                                                                                              | 
+ On The One                                                                                                                 | 
+ One By One                                                                                                                 | 00:06:00
+ Oooh Child                                                                                                                 | 00:01:04
+ Orchestral Music                                                                                                           | 
+ Original Silencer / Back Against The Wall                                                                                  | 
+ Otello Highlights                                                                                                          | 
+ Our Blue Side                                                                                                              | 
+ Out Of The Coma                                                                                                            | 00:02:25
+ Owl Hours                                                                                                                  | 
+ Oxygene (The Complete Oxygene)                                                                                             | 00:12:15
+ Pachanga Cha - Cha - Cha Anyone?                                                                                           | 
+ Pacheco Y Su Charanga                                                                                                      | 00:07:58
+ Pale                                                                                                                       | 
+ Paranoia Picknick                                                                                                          | 00:04:06
+ Paris Concert                                                                                                              | 00:01:17
+ Paris Winter Spring                                                                                                        | 00:06:12
+ Party Hats                                                                                                                 | 
+ Party Plates                                                                                                               | 
+ Passengers                                                                                                                 | 
+ Passion                                                                                                                    | 00:00:49
+ Passion Selon Saint Marc = Markuspassion BWV 247                                                                           | 
+ Pavarotti & Friends For The Children Of Liberia                                                                            | 00:10:52
+ Penguins On The Moon                                                                                                       | 00:05:54
+ Pensando En Ti                                                                                                             | 
+ Pershing                                                                                                                   | 00:05:58
+ Personennahverkehr                                                                                                         | 
+ Pesadillas                                                                                                                 | 00:04:34
+ Phaedra • Lachrymae • The Sword In The Stone • Night Mail • Sinfonietta                                                    | 00:02:45
+ Piano Concerto In A Major Op.85 / Rondo Brillant In A Major Op.56                                                          | 
+ Pimp Soul Blister EP                                                                                                       | 00:01:06
+ Pink Trees                                                                                                                 | 
+ Pisces, Aquarius, Capricorn & Jones Ltd.                                                                                   | 00:05:56
+ Plan Of Action                                                                                                             | 
+ Planet Jive                                                                                                                | 00:08:24
+ Play Boy / Your Love                                                                                                       | 
+ Playing With The Elements                                                                                                  | 
+ Playmobil 7 EP                                                                                                             | 
+ Plays Solo Piano                                                                                                           | 00:05:40
+ Point Break                                                                                                                | 00:01:49
+ Poison                                                                                                                     | 00:01:44
+ Pop Pop Pop-Pie                                                                                                            | 00:00:06
+ Pop That Booty                                                                                                             | 
+ Pourcel Digital                                                                                                            | 
+ Power Punch!!!                                                                                                             | 
+ Pressure Suit                                                                                                              | 
+ Pretty Face                                                                                                                | 00:00:33
+ Pride And Joy                                                                                                              | 
+ Professional Dreamer                                                                                                       | 
+ Prove Your Love                                                                                                            | 00:01:54
+ Psichedelica                                                                                                               | 00:06:56
+ Public Foot The Roman                                                                                                      | 00:02:57
+ Pull Up To The Bumper                                                                                                      | 00:00:15
+ Pump It                                                                                                                    | 00:00:22
+ Putrescent Infectious Rabidity                                                                                             | 00:04:44
+ Quand On N'a Que L'amour                                                                                                   | 00:10:48
+ Quartet No. 1 In A Minor / Quartet No. 2 In A Minor                                                                        | 
+ Quelques Notes Pour Anna                                                                                                   | 00:05:14
+ Quick Joey Small (Run Joey Run) / Rumble '69                                                                               | 00:00:40
+ Rafiki (Remixes)                                                                                                           | 00:03:28
+ Raging E.P.                                                                                                                | 
+ Rapid Transit                                                                                                              | 00:03:59
+ Raumpatrouille Orion                                                                                                       | 00:06:57
+ Raw Meat                                                                                                                   | 
+ Raw Nerves                                                                                                                 | 
+ Recuerdo De Amor                                                                                                           | 
+ Relic                                                                                                                      | 
+ Religious Ecstasy                                                                                                          | 00:00:39
+ Remix 12'                                                                                                                  | 00:02:46
+ Renewable Destination                                                                                                      | 
+ Req's Garden E.P.                                                                                                          | 
+ Respect And Honour                                                                                                         | 
+ Resurrection                                                                                                               | 00:07:12
+ Retrospection (Part 1)                                                                                                     | 
+ Reunion                                                                                                                    | 00:06:36
+ Revelations And The Blues                                                                                                  | 00:04:46
+ Reverence                                                                                                                  | 
+ Rhoda Dakar Sings The Bodysnatchers                                                                                        | 
+ Ride, Ride, Ride                                                                                                           | 
+ Right Away                                                                                                                 | 00:00:35
+ Right By The Moon                                                                                                          | 00:00:48
+ Rivers Of Suggestion                                                                                                       | 
+ Robots E.P.                                                                                                                | 
+ Rock 'N Roll                                                                                                               | 00:01:38
+ Rock And Roll Madonna                                                                                                      | 
+ Rock Me Slowly / Saturday                                                                                                  | 00:01:20
+ Rock N Roll                                                                                                                | 00:01:38
+ Rock Of Ages                                                                                                               | 00:08:11
+ Rock Party/Smoke On The Water                                                                                              | 00:03:07
+ Rockfish Crossing                                                                                                          | 00:04:57
+ Rockin' With The Best / Breakdown                                                                                          | 
+ Roger                                                                                                                      | 00:02:53
+ Romeo And Juliet                                                                                                           | 00:05:11
+ Roolettes                                                                                                                  | 00:07:42
+ Room 19 (Sha La La La Lee)                                                                                                 | 
+ Rot                                                                                                                        | 
+ Rotation (Spirit Remix)                                                                                                    | 
+ Rougher Yet                                                                                                                | 
+ Rubbin' Me The Right Way                                                                                                   | 00:03:48
+ Runnin' For The Red Light (I Gotta Life)                                                                                   | 00:02:33
+ Samba Demais                                                                                                               | 
+ Sammlers Alptraum / Brooklynn Unity Rap                                                                                    | 00:01:16
+ Sange Fra Kælderen                                                                                                         | 00:03:09
+ Saturday Night / Sunday Night At The Blackhawk, San Francisco                                                              | 00:04:56
+ Savoir Aimer                                                                                                               | 00:05:42
+ Say Ooh!                                                                                                                   | 
+ Scheherazade / Capriccio Espagnol / Flight Of The Bumblebee                                                                | 00:03:06
+ Scheming                                                                                                                   | 
+ Sea Of Faces                                                                                                               | 00:01:09
+ Seapeace (Music For Harp)                                                                                                  | 00:01:31
+ Seeing And Doing.                                                                                                          | 00:02:55
+ Septett Op. 20                                                                                                             | 
+ Set Ya Free                                                                                                                | 00:02:14
+ Setting Myself On Fire                                                                                                     | 00:00:13
+ She's A Devil                                                                                                              | 
+ Shine                                                                                                                      | 00:05:30
+ Shlap                                                                                                                      | 
+ Shout! Shout! (Knock Yourself Out)                                                                                         | 00:01:20
+ Sincerely Yours - Part Three Of 5                                                                                          | 
+ Single Women                                                                                                               | 00:00:31
+ Sings The Songs Of Dallas Frazier                                                                                          | 00:03:57
+ Slaughterhouse Invitation                                                                                                  | 
+ Sleep                                                                                                                      | 
+ Smile                                                                                                                      | 
+ Snart Blir Det Sommar Igen / Krama Mej                                                                                     | 00:01:19
+ Somebody Loves You (Extended Version)                                                                                      | 00:01:22
+ Soul On Board                                                                                                              | 00:03:46
+ Sound Of Speed Circles Vol.1                                                                                               | 
+ South Pacific                                                                                                              | 
+ Southern Sons                                                                                                              | 00:01:58
+ Space Night Vol. VIII                                                                                                      | 00:10:41
+ Spiral Staircase                                                                                                           | 00:07:27
+ Spirits Having Flown                                                                                                       | 00:03:47
+ Spiritual Gospel                                                                                                           | 00:05:04
+ Split W/ Condensed Flesh                                                                                                   | 00:02:15
+ Spundae Presents Interpretations II                                                                                        | 00:12:46
+ Spy.der Mix                                                                                                                | 00:04:30
+ Square Hole                                                                                                                | 00:01:36
+ Stainless Steel Providers                                                                                                  | 00:01:06
+ Stand Up Straight                                                                                                          | 
+ Starbase 1 / Moonbase 1                                                                                                    | 
+ Starlight                                                                                                                  | 00:03:46
+ Starring In...Standing In A Monkey Sea                                                                                     | 00:05:37
+ Stay Another Day / White Heit                                                                                              | 
+ Still At Arms Length                                                                                                       | 00:04:09
+ Stranamore                                                                                                                 | 
+ Stranger Songs                                                                                                             | 00:06:18
+ Strawberry Music Sampler No.1                                                                                              | 
+ Street Sense                                                                                                               | 00:02:52
+ Strength In Numbers EP                                                                                                     | 
+ Struck Gold                                                                                                                | 00:02:11
+ Suavemente                                                                                                                 | 00:05:38
+ Submachine / Kicker                                                                                                        | 
+ Subterranean Hitz Vol. I                                                                                                   | 
+ Summary Execution                                                                                                          | 
+ Summer Breeze                                                                                                              | 00:04:11
+ Summerbreeze                                                                                                               | 00:01:07
+ Sunshine                                                                                                                   | 00:00:48
+ Suomi 50 - Runoja Ja Lauluja                                                                                               | 
+ Superslick / Lovemaker                                                                                                     | 00:00:35
+ Surface EP                                                                                                                 | 
+ Suspect                                                                                                                    | 00:02:20
+ Suspicious Minds                                                                                                           | 00:00:24
+ Sweatin' To The Oldies: The Vandals Live                                                                                   | 
+ Sweet Georgia Brown / Freight Train                                                                                        | 
+ Sweet Thang                                                                                                                | 
+ Switched On Whites 2                                                                                                       | 
+ Symphonies 1&8                                                                                                             | 00:04:22
+ Symphony No. 3                                                                                                             | 
+ Systematic                                                                                                                 | 
+ Szerencsejáték                                                                                                             | 
+ T.N.T. / Ten Dallon Hat                                                                                                    | 00:00:23
+ Tainted Angel                                                                                                              | 00:05:51
+ Take Cover                                                                                                                 | 00:07:20
+ Talkin' About My Time                                                                                                      | 
+ Talking In The Canteen                                                                                                     | 
+ Tant Pis Pour Eux !                                                                                                        | 
+ Tante Agathe                                                                                                               | 00:01:55
+ Taste Of Honey / 3rd Man Theme                                                                                             | 00:01:12
+ Taste Of The Young Heart                                                                                                   | 
+ Technoburlesque: Image Snatchers                                                                                           | 00:02:13
+ Teil 1                                                                                                                     | 00:02:15
+ Tell Me Who                                                                                                                | 
+ Terra Firma                                                                                                                | 
+ Texas Sugar / Strat Magik                                                                                                  | 00:04:30
+ Thank You                                                                                                                  | 00:01:20
+ That Summer Feeling                                                                                                        | 00:01:35
+ The 50th Anniversary Collection                                                                                            | 00:25:07
+ The Abyss                                                                                                                  | 
+ The Afterparty                                                                                                             | 00:02:11
+ The Alan Davie Music Workshop 005                                                                                          | 
+ The Awakening                                                                                                              | 00:02:34
+ The BBC Tapes - Volume IV - In Concert 1975                                                                                | 00:02:31
+ The Best Of The EMI Years                                                                                                  | 
+ The Best Of Wildtrax                                                                                                       | 00:02:43
+ The Cave                                                                                                                   | 
+ The Champ / Sound Of The Witch Doctors                                                                                     | 
+ The Chess Box                                                                                                              | 00:40:24
+ The Coming Atlantis                                                                                                        | 00:03:55
+ The Curse                                                                                                                  | 00:05:13
+ The Dark Side Of The Mün                                                                                                   | 
+ The Emigrants                                                                                                              | 00:05:34
+ The Essential Billie Holiday (Carnegie Hall Concert Recorded Live)                                                         | 00:05:40
+ The Eternal Quest                                                                                                          | 00:08:26
+ The Final Conflict / I'm Riffin' 1990 Remix                                                                                | 00:02:30
+ The Final Mistake                                                                                                          | 
+ The Fire Below                                                                                                             | 
+ The Fool On The Hill / So Many Stars                                                                                       | 00:00:39
+ The Friends Of Mr. Cairo                                                                                                   | 00:01:48
+ The Golden Hits Of                                                                                                         | 00:04:47
+ The Golden Orpheus Festival 84                                                                                             | 
+ The Hague '76                                                                                                              | 
+ The Inner Galactic Fusion Experience                                                                                       | 
+ The Japan Syndrome                                                                                                         | 
+ The King Tito Puente / El Rey Tito Puente                                                                                  | 00:04:09
+ The Lone Descent                                                                                                           | 00:07:24
+ The Madness Must End                                                                                                       | 
+ The Meaning Of Love                                                                                                        | 00:01:36
+ The Music Of The Grand Canyon                                                                                              | 00:03:13
+ The Nearness Of You                                                                                                        | 00:05:05
+ The Need To Fly                                                                                                            | 00:03:14
+ The New Star Of The Italian Radio-Television                                                                               | 
+ The Next Time / Bachelor Boy                                                                                               | 
+ The Next Time I'm In Town                                                                                                  | 00:00:45
+ The Notorious Cherry Bombs                                                                                                 | 00:06:04
+ The Oak Tree Rapp                                                                                                          | 00:01:55
+ The Original Rudolph The Red-Nosed Reindeer And Other Children's Christmas Favorites                                       | 
+ The Other Side                                                                                                             | 
+ The Outsider                                                                                                               | 00:08:04
+ The Pagan Cinema                                                                                                           | 00:03:08
+ The Pale Haunt Departure                                                                                                   | 00:03:43
+ The Phoenix                                                                                                                | 00:02:56
+ The Polka Dot Bear - The Story Of Creation                                                                                 | 00:04:31
+ The Power Of Shower                                                                                                        | 00:06:24
+ The Quintessential Billie Holiday, Volume IV, 1937                                                                         | 00:05:46
+ The Raven / The Cask Of Amontillado                                                                                        | 00:01:27
+ The Receiver                                                                                                               | 00:02:21
+ The Rhythm                                                                                                                 | 00:04:29
+ The Rules Of Dada                                                                                                          | 
+ The Silent Waves                                                                                                           | 00:01:14
+ The Strings Of My Heart                                                                                                    | 00:01:36
+ The Time Machine Tour                                                                                                      | 
+ The Town Where a Star Falls                                                                                                | 
+ The Very Best Of Johnnie Taylor                                                                                            | 00:09:26
+ The Watergate EP                                                                                                           | 00:01:14
+ The Way                                                                                                                    | 00:04:48
+ The Way It Is                                                                                                              | 00:04:12
+ The World Of Donovan                                                                                                       | 
+ Themes From Superman                                                                                                       | 00:00:54
+ Theodorakis Dirige Theodorakis, Vol 2                                                                                      | 00:04:28
+ There Is No Cure                                                                                                           | 00:03:35
+ They Call Me Scorpyo                                                                                                       | 00:00:00
+ Things We Said Today                                                                                                       | 
+ This House Is Not A Home                                                                                                   | 
+ This Is High Fidelity                                                                                                      | 
+ This Jam Is Black                                                                                                          | 00:01:50
+ This Time Tomorrow                                                                                                         | 00:04:17
+ Three Dreams                                                                                                               | 
+ Through The Blinds                                                                                                         | 00:05:53
+ Thulcandra                                                                                                                 | 00:02:26
+ Tiefster Winter                                                                                                            | 00:02:14
+ Till Then / P.S. I Love You                                                                                                | 
+ Time And Time Again                                                                                                        | 00:01:46
+ Time II                                                                                                                    | 
+ Time Trouble And Money (Live At The 100 Club)                                                                              | 
+ Toivon                                                                                                                     | 00:06:50
+ Tokyo Cries                                                                                                                | 00:04:30
+ Tombs / Pallbearer                                                                                                         | 00:00:50
+ Tonight Or Never                                                                                                           | 00:00:19
+ Too Much                                                                                                                   | 
+ Touch The Moon                                                                                                             | 00:00:49
+ Touch The Sky                                                                                                              | 
+ Tour 2013 EP                                                                                                               | 00:01:26
+ Tourniquet / The Perfect Drug                                                                                              | 00:01:08
+ Tralala                                                                                                                    | 00:00:59
+ Tranzient / Da Muzik                                                                                                       | 
+ Trav'lin' Light                                                                                                            | 00:03:48
+ Treat Her Groovy / Rap-A-Tap                                                                                               | 00:01:13
+ Trials & Errors                                                                                                            | 00:05:20
+ Try A Little Tenderness / She Put The Hurt On Me                                                                           | 00:01:20
+ Turakaisten Paratiisi                                                                                                      | 
+ Turn That Shit Up                                                                                                          | 
+ Turquoise / Mutant Jazz                                                                                                    | 
+ Twilight Of Legends                                                                                                        | 00:05:09
+ Twirk Your Body                                                                                                            | 
+ Two Headed Dog / Song For A Deadly Mermaid                                                                                 | 
+ Two Timin' Lady                                                                                                            | 00:01:22
+ U.S.A. Remix                                                                                                               | 
+ Ultraviolence                                                                                                              | 
+ Un Grand Amour                                                                                                             | 00:00:32
+ Un Hommage De Quatre Chansons A Jacques Tati                                                                               | 00:01:47
+ Under The Arch                                                                                                             | 00:04:33
+ Under The Pavement - The Beach                                                                                             | 00:06:38
+ Unforgettable / Pretend                                                                                                    | 
+ Urban Sea                                                                                                                  | 00:00:42
+ Useless / Relentless                                                                                                       | 
+ Uspavanke                                                                                                                  | 
+ VI                                                                                                                         | 00:06:21
+ Vandaag Of Morgen                                                                                                          | 
+ Venus & The Razorblades                                                                                                    | 00:01:58
+ Vitusti Kuolemaa...                                                                                                        | 
+ Volume - The Best Of                                                                                                       | 
+ Volume 4                                                                                                                   | 00:01:22
+ Volume Two: Solo Acoustic Guitar                                                                                           | 00:03:28
+ Von Allen Gedanken Schätze Ich Doch Am Meisten Die Interessanten                                                           | 00:05:25
+ Vortice Cremisi                                                                                                            | 
+ WOZ                                                                                                                        | 00:00:14
+ WaWuWe 002                                                                                                                 | 
+ Waiting                                                                                                                    | 00:00:23
+ Waiting For The War                                                                                                        | 
+ Wake Up                                                                                                                    | 00:03:01
+ Walk On... / Travelling                                                                                                    | 
+ Wallet Woman                                                                                                               | 00:00:59
+ Water                                                                                                                      | 00:04:40
+ Waves                                                                                                                      | 00:04:14
+ Way To Normal                                                                                                              | 00:05:32
+ Wedding                                                                                                                    | 
+ Weil Dein Herz Dich Verrät                                                                                                 | 00:00:21
+ West Coast Girl                                                                                                            | 
+ What Can I Do For You                                                                                                      | 00:01:40
+ Whatever Gets You Thru' The Night                                                                                          | 00:00:52
+ Whatever!                                                                                                                  | 00:00:41
+ When Does The Weekend?                                                                                                     | 00:01:04
+ When I Need You / A Dreamer Of Dreams                                                                                      | 00:00:28
+ When The Cowboys Come                                                                                                      | 00:01:34
+ White Turning Black                                                                                                        | 00:01:25
+ Who's Gonna Make The Dance Ram / Twinkle Little Star                                                                       | 
+ Whoop 'Em Up Cindy                                                                                                         | 
+ Wildberry Shake!                                                                                                           | 
+ Will 2K                                                                                                                    | 00:02:48
+ Will I ?                                                                                                                   | 00:01:17
+ Will The Circe Be Unbroken                                                                                                 | 
+ Windfall / Legacy                                                                                                          | 00:00:24
+ Wings Of Change                                                                                                            | 
+ Within My Heart                                                                                                            | 00:02:17
+ Words, Music, Laughter And Tears                                                                                           | 00:04:39
+ Works (1968 - 2005)                                                                                                        | 00:12:23
+ World Language                                                                                                             | 
+ Worst Case Scenario                                                                                                        | 
+ Years Not Living                                                                                                           | 00:04:53
+ You Are The Man / Hard To Get                                                                                              | 00:00:37
+ You Betta Ask Somebody                                                                                                     | 
+ You Came                                                                                                                   | 00:01:10
+ You Don't Believe Me                                                                                                       | 00:01:32
+ You Give Jews A Bad Name                                                                                                   | 00:03:16
+ You Knocked The Love (Right Outta My Heart)                                                                                | 
+ You Look Good                                                                                                              | 00:01:53
+ You Make Me Feel Brand New / I Can't Give You Anything (But My Love)                                                       | 00:00:50
+ You Might Be Wrong                                                                                                         | 
+ You Send Me                                                                                                                | 00:03:16
+ You're My One And Only                                                                                                     | 00:02:17
+ You're The Drug In My Life                                                                                                 | 00:00:58
+ Young Baby Father                                                                                                          | 00:00:47
+ Your Body Is An Outlaw                                                                                                     | 
+ Your Move                                                                                                                  | 00:00:23
+ Your Sweet Love / Just As Much As Ever                                                                                     | 00:00:37
+ Zero Ambition                                                                                                              | 
+ Znaeš Kolku Vredam                                                                                                         | 
+ Zondag In 't Zuiden                                                                                                        | 00:06:05
+ Zoopsia                                                                                                                    | 00:03:30
+ Zorba Le Grec (Musique Originale)                                                                                          | 00:01:41
+ Zwischen Weitergehen Und Untergehen                                                                                        | 00:07:17
+ ¡Ay, Caridad!                                                                                                              | 00:04:35
+ Én Megálmodtalak                                                                                                           | 
+ Άσε Με Φίλε Να Μεθύσω                                                                                                      | 
+ Αμύνομαι                                                                                                                   | 
+ Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3                                                                                     | 
+ Είμαι Το Σήμερα Κι Είσαι Το Χθες                                                                                           | 
+ Η Αγάπη Θα Λάμψει                                                                                                          | 00:04:38
+ Η Καρδιά Με Πηγαίνει Εμένα                                                                                                 | 
+ Ξανθιά Γυναίκα                                                                                                             | 
+ Προδομένος Λαός                                                                                                            | 
+ Το Τραγούδι Του Νεκρού Αδελφού - Λιποτάκτες                                                                                | 
+ Φωτιά Στα Σαββατόβραδα (1982 - 1992: Δέκα Χρόνια Τραγούδι)                                                                 | 
+ В Танцевальных Ритмах                                                                                                      | 
+ Вања Радоњић                                                                                                               | 00:03:17
+ Голос И Ночь (I)                                                                                                           | 00:05:41
+ Исполнение Итальянской Певицы Мильва                                                                                       | 
+ Королева Зимы                                                                                                              | 00:02:53
+ Лунная Рапсодия                                                                                                            | 00:07:00
+ Любопытство                                                                                                                | 
+ Народни Бисери                                                                                                             | 00:04:32
+ Ночной Звонок / Жар-птица / Свет Любви                                                                                     | 00:02:25
+ Песни Г. Портнова                                                                                                          | 
+ Поет Петр Лещенко                                                                                                          | 00:04:53
+ Полынь / Верба-Вербочка / Взрослые Дочери / Подкова                                                                        | 
+ Пушка                                                                                                                      | 00:06:01
+ Сторона От                                                                                                                 | 00:13:21
+ Хроника Парнишки С Гомельских Улиц                                                                                         | 
+ غيره \ وقف يا أسمر = Ghira / Wakef Ya Asmar                                                                                | 
+ ノイ                                                                                                                       | 00:01:39
+ 盡在不言中                                                                                                                 | 00:05:58
+ 花葬                                                                                                                       | 00:00:12
+(964 rows)
 
                 titulo                 |           nombre            
 ---------------------------------------+-----------------------------
@@ -1296,4 +2259,3 @@ INSERT 0 360
 --------------+-------------+------+---------+-------------
 (0 rows)
 
-ROLLBACK
