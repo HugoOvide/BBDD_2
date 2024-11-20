@@ -163,7 +163,7 @@ create table usuario_tienen_ediciones(
     pais_edicion text,
     formato text,
     estado estado,
-    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
+    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)
 );
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
