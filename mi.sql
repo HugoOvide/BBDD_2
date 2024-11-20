@@ -76,8 +76,8 @@ create table grupos(
     nombre text primary key,
     url text
 );
-insert into grupos (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
 \d grupos
+insert into grupos (nombre, url) select distinct nombre_grupo, url_grupo from temp_discos;
 
 
 create table discos(
@@ -244,3 +244,7 @@ group by usuario_tienen_ediciones.nombre_usuario;
 \echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"*/
 
 rollback;
+
+
+
+
