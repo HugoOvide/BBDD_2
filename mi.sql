@@ -180,17 +180,25 @@ from discos
 join canciones on discos.titulo = canciones.titulo_disco
 group by discos.titulo
 having count(canciones.titulo) > 5;
+
+
 \echo "Mostrar los vinilos que tiene el usuario Juan García Gómez junto con el título del disco, y el país y año de edición del mismo"
 select usuario_tienen_ediciones.titulo_disco, usuario_tienen_ediciones.pais_edicion, usuario_tienen_ediciones.año_edicion
 from usuario_tienen_ediciones
 join usuarios on usuario_tienen_ediciones.nombre_usuario = usuarios.nombre_usuario
 where usuario_tienen_ediciones.formato = 'Vinyl' and usuarios.nombre = 'Juan García Gómez';
+
+
 \echo "Disco con mayor duración de la colección. Construir la expresión equivalente en álgebra relacional."
 select discos.titulo, sum(canciones.duracion) as duracion_total
 from discos 
 join canciones 
 on discos.titulo = canciones.titulo_disco
-group by discos.titulo;
+group by discos.titulo
+order by duracion_total
+LIMIT 1;
+
+
 \echo "De los discos que tiene en su lista de deseos el usuario Juan García Gómez, indicar el nombre de los grupos musicales que los interpretan."
 select usuarios_desean_discos.titulo, grupos.nombre
 from usuarios_desean_discos
@@ -198,18 +206,24 @@ join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
 join discos on usuarios_desean_discos.titulo = discos.titulo
 join grupos on discos.nombre_grupo = grupos.nombre
 where usuarios.nombre = 'Juan García Gómez';
+
+
 \echo "Mostrar los discos publicados entre 1970 y 1972 junto con sus ediciones ordenados por el año de publicación."
 select discos.titulo, discos.año_publicacion, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_disco
 from discos
 join ediciones on discos.titulo = ediciones.titulo_disco
 where discos.año_publicacion <= 1972 and discos.año_publicacion >= 1970
 order by ediciones.año_disco desc;
+
+
 \echo "Listar el nombre de todos los grupos que han publicado discos del género ‘Electronic’. Construir la expresión equivalente en álgebra relacional."
 select grupos.nombre
 from grupos 
 join discos on grupos.nombre = discos.nombre_grupo
 join generos on discos.titulo = generos.titulo_disco
 where generos.nombre = 'Electronic';
+
+
 \echo "Lista de discos con la duración total del mismo, editados antes del año 2000."
 select discos.titulo, sum(canciones.duracion) as duracion_total
 from ediciones
@@ -217,6 +231,8 @@ join discos on ediciones.titulo_disco = discos.titulo
 join canciones on discos.titulo = canciones.titulo
 where ediciones.año_edicion <= 2000
 group by discos.titulo;
+
+
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
 --No echa ningún resultado
 select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
@@ -227,12 +243,16 @@ join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
 join usuario_tienen_ediciones 
 on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 where usuarios_desean_discos.nombre_usuario = 'lorenasaez' and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
+
+
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
 select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
 where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
+
+
 \echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
 disco más nuevo, y el año medio de todos sus discos de su colección"
 select usuarios.nombre_usuarios, count(usuario_tienen_ediciones.*) as numero_ediciones, max(usuario_tienen_ediciones.año_disco), min(usuario_tienen_ediciones.año_disco)
