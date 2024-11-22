@@ -146,6 +146,8 @@ create table usuarios_desean_discos(
     titulo text,
     año_publicacion int,
     primary key (nombre_usuario, titulo, año_publicacion)
+    foreign key (nombre_usuario) references usuarios(nombre_usuario),
+    foreign key (titulo, año_publicacion) references discos(titulo, año_publicacion)
 );
 \d usuarios_desean_discos
 insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
@@ -163,7 +165,9 @@ create table usuario_tienen_ediciones(
     pais_edicion text,
     formato text,
     estado estado,
-    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)
+    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato),
+    foreign key (nombre_usuario) references usuarios(nombre_usuario,formato),
+    foreign key (titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)references ediciones(titulo_disco,año_disco,año_edicion,pais,formato)
 );
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
