@@ -255,14 +255,16 @@ join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
 where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
 
 
-\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
-disco más nuevo, y el año medio de todos sus discos de su colección"
-select usuarios.nombre_usuarios, count(usuario_tienen_ediciones.*) as numero_ediciones, max(usuario_tienen_ediciones.año_disco), min(usuario_tienen_ediciones.año_disco)
+\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su disco más nuevo, y el año medio de todos sus discos de su colección"
+select usuarios.nombre_usuario, count(usuario_tienen_ediciones.*) as numero_ediciones, 
+       max(usuario_tienen_ediciones.año_lanzamiento_disco) as disco_mas_nuevo, 
+       min(usuario_tienen_ediciones.año_lanzamiento_disco) as disco_mas_antiguo, 
+       avg(usuario_tienen_ediciones.año_lanzamiento_disco) as año_promedio
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
-group by usuario_tienen_ediciones.nombre_usuario;
+group by usuarios.nombre_usuario;
 
-*\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
+\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
 select grupos.nombre, count(ediciones.*) as numero_ediciones
 from grupos
 join discos on grupos.nombre = discos.nombre_grupo
