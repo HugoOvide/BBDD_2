@@ -236,15 +236,17 @@ group by discos.titulo;
 
 
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
---No echa ningún resultado
-select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
-from ediciones
-join discos on ediciones.titulo_disco = discos.titulo
-join usuarios_desean_discos on discos.titulo = usuarios_desean_discos.titulo
-join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
+select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato
+from usuarios_desean_discos
+join discos on usuarios_desean_discos.titulo = discos.titulo
+join ediciones on discos.titulo = ediciones.titulo_disco
 join usuario_tienen_ediciones 
-on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
-where usuarios_desean_discos.nombre_usuario = 'lorenasaez' and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
+    on ediciones.titulo_disco = usuario_tienen_ediciones.titulo_disco
+    and ediciones.año_edicion = usuario_tienen_ediciones.año_edicion
+    and ediciones.pais = usuario_tienen_ediciones.pais_edicion
+    and ediciones.formato = usuario_tienen_ediciones.formato
+where usuarios_desean_discos.nombre_usuario = 'lorenasaez'
+  and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
 
 
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."

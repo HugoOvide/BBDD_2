@@ -1288,8 +1288,8 @@ INSERT 0 360
  花葬                                   | 00:00:12
 (189 rows)
 
- titulo_disco | año_edicion | pais | formato | año_edicion 
---------------+-------------+------+---------+-------------
+ titulo_disco | año_edicion | pais | formato 
+--------------+-------------+------+---------
 (0 rows)
 
                                    titulo_disco                                    | año_edicion |  pais   | formato | año_edicion 
