@@ -252,7 +252,10 @@ select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
-where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
+    and usuario_tienen_ediciones.año_edicion = ediciones.año_edicion
+    and usuario_tienen_ediciones.pais_edicion = ediciones.pais
+    and usuario_tienen_ediciones.formato = ediciones.formato
+where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.estado = 'NM' or usuario_tienen_ediciones.estado = 'M');
 
 
 \echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su disco más nuevo, y el año medio de todos sus discos de su colección"

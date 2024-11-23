@@ -1292,9 +1292,15 @@ INSERT 0 360
 --------------+-------------+------+---------+-------------
 (0 rows)
 
- titulo_disco | año_edicion | pais | formato | año_edicion 
---------------+-------------+------+---------+-------------
-(0 rows)
+                                   titulo_disco                                    | año_edicion |  pais   | formato | año_edicion 
+-----------------------------------------------------------------------------------+-------------+---------+---------+-------------
+ 4                                                                                 |        1981 | Germany | Vinyl   |        1981
+ Dirk Wears White Sox                                                              |        2014 | UK      | Vinyl   |        2014
+ Farmer John / Big Boy Pete                                                        |        1959 | US      | Vinyl   |        1959
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |        1970 | US      | Vinyl   |        1970
+ Pacheco Y Su Charanga                                                             |        1961 | US      | Vinyl   |        1961
+ Pourcel Digital                                                                   |        1979 | Japan   | Vinyl   |        1979
+(6 rows)
 
  nombre_usuario  | numero_ediciones | disco_mas_nuevo | disco_mas_antiguo |     año_promedio      
 -----------------+------------------+-----------------+-------------------+-----------------------
