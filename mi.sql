@@ -146,9 +146,8 @@ create table usuarios_desean_discos(
     titulo text,
     año_publicacion int,
     primary key (nombre_usuario, titulo, año_publicacion)
-    foreign key (nombre_usuario) references usuarios(nombre_usuario),
-    foreign key (titulo, año_publicacion) references discos(titulo, año_publicacion)
 );
+
 \d usuarios_desean_discos
 insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
     select distinct on (temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento) 
@@ -262,9 +261,23 @@ select usuarios.nombre_usuarios, count(usuario_tienen_ediciones.*) as numero_edi
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 group by usuario_tienen_ediciones.nombre_usuario;
-/*\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
 
-\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"*/
+*\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
+select grupos.nombre, count(ediciones.*) as numero_ediciones
+from grupos
+join discos on grupos.nombre = discos.nombre_grupo
+join ediciones on discos.titulo = ediciones.titulo_disco
+group by grupos.nombre
+having count(ediciones.*) > 5;
+
+\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"
+
+select usuarios.nombre, count(usuario_tienen_ediciones.*) as total_ediciones
+from usuarios
+join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
+group by usuarios.nombre
+order by total_ediciones desc
+limit 1;
 
 rollback;
 
