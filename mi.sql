@@ -132,7 +132,7 @@ insert into ediciones (formato,año_edicion,pais,titulo_disco,año_disco)
 
 
 create table usuarios(
-    nombre_usuario text primary key,
+    nombre_usuario text primary key unique,
     nombre text,
     email text, 
     password text
@@ -146,8 +146,6 @@ create table usuarios_desean_discos(
     titulo text,
     año_publicacion int,
     primary key (nombre_usuario, titulo, año_publicacion)
-    foreign key (nombre_usuario) references usuarios(nombre_usuario),
-    foreign key (titulo, año_publicacion) references discos(titulo, año_publicacion)
 );
 \d usuarios_desean_discos
 insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
@@ -165,9 +163,7 @@ create table usuario_tienen_ediciones(
     pais_edicion text,
     formato text,
     estado estado,
-    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato),
-    foreign key (nombre_usuario) references usuarios(nombre_usuario,formato),
-    foreign key (titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)references ediciones(titulo_disco,año_disco,año_edicion,pais,formato)
+    primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)
 );
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
@@ -257,8 +253,7 @@ join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
 where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
 
 
-\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
-disco más nuevo, y el año medio de todos sus discos de su colección"
+\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su disco más nuevo, y el año medio de todos sus discos de su colección"
 select usuarios.nombre_usuarios, count(usuario_tienen_ediciones.*) as numero_ediciones, max(usuario_tienen_ediciones.año_disco), min(usuario_tienen_ediciones.año_disco)
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
