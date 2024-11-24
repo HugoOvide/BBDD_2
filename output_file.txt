@@ -162,9 +162,16 @@ Indexes:
 INSERT 0 360
                                         titulo                                        
 --------------------------------------------------------------------------------------
+<<<<<<< HEAD
  (Void)
  -In-A-Gadda-Da-Vida
  ...Verendeten Blickes
+=======
+ -In-A-Gadda-Da-Vida
+ (Void)
+ ...Verendeten Blickes
+ ¡Ay, Caridad!
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  10 Years - Live In Iruña
  1000 Sünden...
  12 Supersuccessi
@@ -281,6 +288,10 @@ INSERT 0 360
  Ejaculate Upon The Holy Qur'an
  El Duende En Madrid
  Elaine Sings Wilder
+<<<<<<< HEAD
+=======
+ Én Megálmodtalak
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  En Todo Estaré
  Endnote
  Ensemble Folklorique Timișul
@@ -341,6 +352,12 @@ INSERT 0 360
  Howard Carpendale - Die LP Zur Tournee
  Hurry Sundown
  Hver Dag Er En Perfekt Dag
+<<<<<<< HEAD
+=======
+ I'd Like To Teach The World To Sing
+ I'm Not So Lucky (Showcase)
+ I'm That Type Of Girl
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  I Ain't Yer House-Nigger
  I Am A Dope Fiend
  I Am A Photograph
@@ -348,6 +365,7 @@ INSERT 0 360
  I Can't Let Go Of Your Love
  I Love To Dance
  I Wish My Life Was Based On A True Story
+<<<<<<< HEAD
  I'd Like To Teach The World To Sing
  I'm Not So Lucky (Showcase)
  I'm That Type Of Girl
@@ -355,6 +373,12 @@ INSERT 0 360
  Ich Fühl Mich Wohl In Deinem Leben
  If Ever I Would Leave You
  If You're Into It, I'm Out Of It
+=======
+ Ich Fühl Mich Wohl In Deinem Leben
+ If Ever I Would Leave You
+ If You're Into It, I'm Out Of It
+ II
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Il Faudrait Leur Dire...
  Il Mondo Dei Giovani Vol. 1
  Im 3/4 Takt
@@ -371,9 +395,15 @@ INSERT 0 360
  In The Wake Of The Dark Earth
  Introducing Danny Johnson
  Istra Ti Materina: Part 1
+<<<<<<< HEAD
  It Found A Voice...
  It Happened One Bite
  It's A Man's World
+=======
+ It's A Man's World
+ It Found A Voice...
+ It Happened One Bite
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Iter
  Jag Offs / Four Letter Words Split
  Jazz... Has... A Sense Of Humor
@@ -608,8 +638,13 @@ INSERT 0 360
  Under The Arch
  Under The Pavement - The Beach
  Unforgettable / Pretend
+<<<<<<< HEAD
  VI
  Vandaag Of Morgen
+=======
+ Vandaag Of Morgen
+ VI
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Vitusti Kuolemaa...
  Volume - The Best Of
  Volume Two: Solo Acoustic Guitar
@@ -632,11 +667,17 @@ INSERT 0 360
  Zondag In 't Zuiden
  Zoopsia
  Zwischen Weitergehen Und Untergehen
+<<<<<<< HEAD
  ¡Ay, Caridad!
  Én Megálmodtalak
  Άσε Με Φίλε Να Μεθύσω
  Αμύνομαι 
  Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3
+=======
+ Αμύνομαι 
+ Ανέκδοτα Τραγούδια Στις 33 Στροφές Νο3
+ Άσε Με Φίλε Να Μεθύσω
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Είμαι Το Σήμερα Κι Είσαι Το Χθες
  Η Αγάπη Θα Λάμψει
  Η Καρδιά Με Πηγαίνει Εμένα
@@ -772,7 +813,10 @@ INSERT 0 360
  Scott Grooves
  Stardelay
  The Hacker
+<<<<<<< HEAD
  Malo Macht Musik.
+=======
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Samoa Park
  The Product (6)
  3 Chairs
@@ -784,6 +828,10 @@ INSERT 0 360
  Carola Pisaturo
  Boards Of Canada
  Antti Tuisku
+<<<<<<< HEAD
+=======
+ Malo Macht Musik.
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Soul II Soul
  Lamb
  The Intelligent Jungalist
@@ -858,6 +906,10 @@ INSERT 0 360
  X Stress
  Scorn
  Jonny Chingas
+<<<<<<< HEAD
+=======
+ Pimentola
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Los Bonitos
  Mark Richardson
  Stu Allan
@@ -875,12 +927,19 @@ INSERT 0 360
  Donna Summer
  Simon
  Hokus Pokus
+<<<<<<< HEAD
  Pimentola
+=======
+ The Lady Supreme
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Donkey
  Mai Tai
  Tieum
  Angel Moraes
+<<<<<<< HEAD
  The Lady Supreme
+=======
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Christoph De Babalon
  Jamie XX
  Mylo
@@ -900,13 +959,20 @@ INSERT 0 360
  Upper Astral
  Sinéad OConnor
  Loefah
+<<<<<<< HEAD
  Mr. Tophat
+=======
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Quarion
  SE62
  Sade
   Bo Bellow
  Hum (8)
  Parasense
+<<<<<<< HEAD
+=======
+ Mr. Tophat
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Nemesi
  Manu Dibango
  Morenas
@@ -916,8 +982,13 @@ INSERT 0 360
  Enjoy (6)
  Discolazer
  Lou & The Hollywood Bananas
+<<<<<<< HEAD
  Safire
  White & Torch
+=======
+ White & Torch
+ Safire
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Skydiver (2)
  Nalin & Kane
  Ben Sims
@@ -1068,12 +1139,19 @@ INSERT 0 360
  Sub-Stance
  S.P.Y. & Total Science
  The Ganja Kru
+<<<<<<< HEAD
  Eric Prydz
  WaWuWe
+=======
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Moonbase
  Smith & Mighty
  Tileface
  Katrina And The Waves
+<<<<<<< HEAD
+=======
+ WaWuWe
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Taana Gardner
  Ferry Corsten
  Avalanche (8)
@@ -1082,12 +1160,22 @@ INSERT 0 360
  Voyce
  Hans-Joachim Roedelius
  23 Skidoo
+<<<<<<< HEAD
  Larry Gus
  Kim Wilde
  Millie Jackson
  Nicole Russo
  Seduction
  Sigma Fay
+=======
+ Eric Prydz
+ Larry Gus
+ Seduction
+ Sigma Fay
+ Kim Wilde
+ Millie Jackson
+ Nicole Russo
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Marshall Jefferson
  Die Form
  Christos Lainas
@@ -1138,7 +1226,12 @@ INSERT 0 360
  Durdurun Dünyayı                       | 00:00:51
  Emptiness                              | 
  En Annan Del Av Vår Värld              | 00:00:16
+<<<<<<< HEAD
  Everybody Needs Somebody To Love       | 00:01:54
+=======
+ Én Megálmodtalak                       | 
+ Everybody Needs Somebody To Love       | 00:00:00
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Everywhere I Look                      | 
  Evil Game                              | 00:02:27
  Femmina                                | 00:01:12
@@ -1155,6 +1248,10 @@ INSERT 0 360
  Gold                                   | 
  Good Shape                             | 
  Hairy Situation                        | 00:00:58
+<<<<<<< HEAD
+=======
+ Hämärän Seppele                        | 00:00:19
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Here We Go Again                       | 00:02:18
  Herederos De Un Imperio                | 
  Hidden                                 | 00:01:30
@@ -1162,7 +1259,10 @@ INSERT 0 360
  Hot Shot In Space                      | 00:00:20
  Hot Stuff                              | 00:02:21
  Hurry Sundown                          | 00:00:05
+<<<<<<< HEAD
  Hämärän Seppele                        | 00:00:33
+=======
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  I Am A Photograph                      | 00:00:50
  I Love To Dance                        | 00:00:56
  I Want To Spend My Lifetime Loving You | 00:01:22
@@ -1187,12 +1287,21 @@ INSERT 0 360
  Lakini's Juice                         | 
  Land Of 1,000 Dances                   | 
  Lay Lady Lay                           | 00:00:40
+<<<<<<< HEAD
  Let It Loose                           | 00:01:38
  Let's Forget                           | 
  Light The Flame Of Love                | 00:01:09
  Lost Souls                             | 
  Love Me Crazy                          | 
  Love's Old Sweet Song                  | 
+=======
+ Let's Forget                           | 
+ Let It Loose                           | 00:01:38
+ Light The Flame Of Love                | 00:01:09
+ Lost Souls                             | 
+ Love's Old Sweet Song                  | 
+ Love Me Crazy                          | 
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Ma Liberté                             | 00:01:10
  Macino Kolo                            | 
  Meet Me At The Twistin' Place          | 00:01:30
@@ -1269,15 +1378,25 @@ INSERT 0 360
  Whoop 'Em Up Cindy                     | 
  Wings Of Change                        | 
  Within My Heart                        | 00:00:44
+<<<<<<< HEAD
+=======
+ You're The Drug In My Life             | 00:02:30
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  You Came                               | 00:00:29
  You Don't Believe Me                   | 00:02:42
  You Give Jews A Bad Name               | 00:00:42
  You Send Me                            | 00:01:24
+<<<<<<< HEAD
  You're The Drug In My Life             | 00:02:30
  Zero Ambition                          | 
  Zondag In 't Zuiden                    | 00:00:20
  Zoopsia                                | 00:00:38
  Én Megálmodtalak                       | 
+=======
+ Zero Ambition                          | 
+ Zondag In 't Zuiden                    | 00:00:20
+ Zoopsia                                | 00:00:38
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
  Άσε Με Φίλε Να Μεθύσω                  | 
  Είμαι Το Σήμερα Κι Είσαι Το Χθες       | 
  Ξανθιά Γυναίκα                         | 
@@ -1288,6 +1407,7 @@ INSERT 0 360
  花葬                                   | 00:00:12
 (189 rows)
 
+<<<<<<< HEAD
  titulo_disco | año_edicion | pais | formato | año_edicion 
 --------------+-------------+------+---------+-------------
 (0 rows)
@@ -1295,5 +1415,64 @@ INSERT 0 360
  titulo_disco | año_edicion | pais | formato | año_edicion 
 --------------+-------------+------+---------+-------------
 (0 rows)
+=======
+ titulo_disco | año_edicion | pais | formato 
+--------------+-------------+------+---------
+(0 rows)
+
+                                   titulo_disco                                    | año_edicion |  pais   | formato | año_edicion 
+-----------------------------------------------------------------------------------+-------------+---------+---------+-------------
+ 4                                                                                 |        1981 | Germany | Vinyl   |        1981
+ Dirk Wears White Sox                                                              |        2014 | UK      | Vinyl   |        2014
+ Farmer John / Big Boy Pete                                                        |        1959 | US      | Vinyl   |        1959
+ Faron Young Sings Occasional Wife & If I Ever Fall In Love With A Honky Tonk Girl |        1970 | US      | Vinyl   |        1970
+ Pacheco Y Su Charanga                                                             |        1961 | US      | Vinyl   |        1961
+ Pourcel Digital                                                                   |        1979 | Japan   | Vinyl   |        1979
+(6 rows)
+
+ nombre_usuario  | numero_ediciones | disco_mas_nuevo | disco_mas_antiguo |     año_promedio      
+-----------------+------------------+-----------------+-------------------+-----------------------
+ javierfernández |               11 |            2014 |              1962 | 1992.2727272727272727
+ carlosfernández |               13 |            2018 |                 0 | 1844.2307692307692308
+ analópez        |                6 |            2014 |              1972 | 1998.0000000000000000
+ martamoreno     |               22 |            2023 |                 0 | 1902.1818181818181818
+ lorenasaez      |               24 |            2020 |                 0 | 1749.1250000000000000
+ juangomez       |               17 |            2016 |                 0 | 1760.0000000000000000
+ martadíaz       |               30 |            2023 |                 0 | 1799.8333333333333333
+ javiergómez     |               25 |            2022 |                 0 | 1915.2800000000000000
+ pedrodíaz       |               18 |            2019 |              1966 | 1995.7222222222222222
+ sergiopérez     |               28 |            2020 |                 0 | 1925.2142857142857143
+ pedrofernández  |               10 |            2013 |              1974 | 1994.9000000000000000
+ sergiofernández |                5 |            2015 |              1974 | 1992.6000000000000000
+ maríamartínez   |               30 |            2020 |                 0 | 1929.7666666666666667
+ pedrolópez      |               15 |            2018 |                 0 | 1863.8666666666666667
+ luisgarcia      |               22 |            2018 |              1959 | 1990.6818181818181818
+ martalópez      |               12 |            2019 |              1959 | 1992.4166666666666667
+(16 rows)
+
+        nombre        | numero_ediciones 
+----------------------+------------------
+ The Fall             |               13
+ The Rolling Stones   |                9
+ Beres Hammond        |                7
+ Lou Reed             |                7
+ Big Bill Broonzy     |                8
+ Bee Gees             |                7
+ Elvis Presley        |                9
+ Dolly Parton         |                6
+ Mikis Theodorakis    |                7
+ John Barry           |                8
+ Ludwig van Beethoven |                7
+ Michael Jackson      |                7
+ Sleepy Sleepers      |                7
+ Elton John           |                6
+ Esham                |                6
+(15 rows)
+
+          nombre          | total_ediciones 
+--------------------------+-----------------
+ María Martínez Rodríguez |              30
+(1 row)
+>>>>>>> 7fd66f63aebef9aed3dca47a94762a57118823a3
 
 ROLLBACK

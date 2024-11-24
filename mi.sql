@@ -147,6 +147,7 @@ create table usuarios_desean_discos(
     año_publicacion int,
     primary key (nombre_usuario, titulo, año_publicacion)
 );
+
 \d usuarios_desean_discos
 insert into usuarios_desean_discos (nombre_usuario, titulo, año_publicacion)
     select distinct on (temp_usuario_desea_disco.nombre, temp_usuario_desea_disco.titulo, temp_usuario_desea_disco.año_lanzamiento) 
@@ -165,6 +166,7 @@ create table usuario_tienen_ediciones(
     estado estado,
     primary key(nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato)
 );
+
 \d usuario_tienen_ediciones
 insert into usuario_tienen_ediciones (nombre_usuario,titulo_disco,año_lanzamiento_disco,año_edicion,pais_edicion,formato,estado)
     select distinct on (temp_usuario_tiene_edicion.nombre,temp_usuario_tiene_edicion.titulo,temp_usuario_tiene_edicion.año_lanzamiento::integer,
@@ -234,15 +236,17 @@ group by discos.titulo;
 
 
 \echo "Lista de ediciones de discos deseados por el usuario Lorena Sáez Pérez que tiene el usuario Juan García Gómez"
---No echa ningún resultado
-select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato, ediciones.año_edicion
-from ediciones
-join discos on ediciones.titulo_disco = discos.titulo
-join usuarios_desean_discos on discos.titulo = usuarios_desean_discos.titulo
-join usuarios on usuarios_desean_discos.nombre_usuario = usuarios.nombre_usuario
+select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones.formato
+from usuarios_desean_discos
+join discos on usuarios_desean_discos.titulo = discos.titulo
+join ediciones on discos.titulo = ediciones.titulo_disco
 join usuario_tienen_ediciones 
-on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
-where usuarios_desean_discos.nombre_usuario = 'lorenasaez' and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
+    on ediciones.titulo_disco = usuario_tienen_ediciones.titulo_disco
+    and ediciones.año_edicion = usuario_tienen_ediciones.año_edicion
+    and ediciones.pais = usuario_tienen_ediciones.pais_edicion
+    and ediciones.formato = usuario_tienen_ediciones.formato
+where usuarios_desean_discos.nombre_usuario = 'lorenasaez'
+  and usuario_tienen_ediciones.nombre_usuario = 'juangomez';
 
 
 \echo "Lista todas las ediciones de los discos que tiene el usuario Gómez García en un estado NM o M. Construir la expresión equivalente en álgebra relacional."
@@ -250,17 +254,35 @@ select ediciones.titulo_disco, ediciones.año_edicion, ediciones.pais, ediciones
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
 join ediciones on usuario_tienen_ediciones.titulo_disco = ediciones.titulo_disco
-where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.formato = 'NM' or usuario_tienen_ediciones.formato = 'M');
+    and usuario_tienen_ediciones.año_edicion = ediciones.año_edicion
+    and usuario_tienen_ediciones.pais_edicion = ediciones.pais
+    and usuario_tienen_ediciones.formato = ediciones.formato
+where usuarios.nombre like '%Gómez García%' and (usuario_tienen_ediciones.estado = 'NM' or usuario_tienen_ediciones.estado = 'M');
 
 
-\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su disco más nuevo, y el año medio de todos sus discos de su colección"
+\echo " Listar todos los usuarios junto al número de ediciones que tiene de todos los discos junto al año de lanzamiento de su disco más antiguo, el año de lanzamiento de su
+disco más nuevo, y el año medio de todos sus discos de su colección"
 select usuarios.nombre_usuarios, count(usuario_tienen_ediciones.*) as numero_ediciones, max(usuario_tienen_ediciones.año_disco), min(usuario_tienen_ediciones.año_disco)
 from usuarios
 join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
-group by usuario_tienen_ediciones.nombre_usuario;
-/*\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
+group by usuarios.nombre_usuario;
 
-\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"*/
+\echo "Listar el nombre de los grupos que tienen más de 5 ediciones de sus discos en la base de datos"
+select grupos.nombre, count(ediciones.*) as numero_ediciones
+from grupos
+join discos on grupos.nombre = discos.nombre_grupo
+join ediciones on discos.titulo = ediciones.titulo_disco
+group by grupos.nombre
+having count(ediciones.*) > 5;
+
+\echo "Lista el usuario que más discos, contando todas sus ediciones tiene en la base de datos"
+
+select usuarios.nombre, count(usuario_tienen_ediciones.*) as total_ediciones
+from usuarios
+join usuario_tienen_ediciones on usuarios.nombre_usuario = usuario_tienen_ediciones.nombre_usuario
+group by usuarios.nombre
+order by total_ediciones desc
+limit 1;
 
 rollback;
 
